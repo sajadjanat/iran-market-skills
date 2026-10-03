@@ -45,3 +45,23 @@ For Iranian commerce/service tasks, include only dimensions relevant to the targ
 Use the selected provider's official documentation for payment interpretation. [Zarinpal currency](https://www.zarinpal.com/docs/paymentGateway/moreFeatures/currency) documents IRR/IRT for its request API; [connection guide](https://www.zarinpal.com/docs/paymentGateway/connectToGateway) separates callback and verification. Read on 2026-10-03; no visible publication date. These are provider-specific, and request/verify unit wording must be reconciled against the actual integration rather than generalized.
 
 Choose recovery or low-bandwidth tests because the brief, research or task risk warrants them, and record the simulated conditions. They do not prove that every Iranian user has unreliable connectivity. Observe whether the target segment understands city eligibility, total cost, a pending payment and the next recovery step; local brand popularity cannot answer those questions.
+
+## Iranian task comparison checks
+
+Select from this matrix according to the user task; do not turn every audit into an exhaustive checklist.
+
+| Contract | Observable comparison | Boundary |
+|---|---|---|
+| Rial/toman | Visible unit and total, original units, item/delivery/fee/discount breakdown | In this conventional example, 250,000 toman = 2,500,000 rial; normalize in a separate column and preserve originals. Unknown delivery means unknown total, not zero. |
+| Payment | Available gateway/transfer/COD/installment options and published conditions | A screenshot, bank SMS or uploaded receipt alone does not establish server verification or settlement. |
+| Recovery | Pending/failed state, applicable reversal terms, order reference and support action | Do not assign one merchant's 72-hour policy to another. Do not initiate payment to fill evidence gaps. |
+| Sign-in | Mobile format, pasted Persian/Latin digits, visible masked destination, resend/error recovery | Static screenshots do not test SMS delivery, ownership or code expiry. |
+| Scheduling | Selected date calendar, timezone, known service slots and holiday restrictions | Date-only appointment and UTC instant are different contracts. |
+| Address | Same city/service area, actual shipping options, postal/address requirements | Syntax validity and displayed coverage do not prove fulfillment. |
+| Persian UI | Readable mixed-direction identifiers, names, labels, prices, keyboard and mobile behavior | A mirrored layout does not verify input parsing or accessibility. |
+| Interruption | State retention and available status check after network/SMS delay | Duplicate-order/charge protection needs authorized runtime/backend evidence. |
+| Trust | Identity, contacts, terms, badge link and reference-based follow-up | Badge appearance and review counts do not establish authenticity or customer outcomes. |
+
+Candidate shopping contexts include [Torob](https://torob.com/) and [Digikala](https://www.digikala.com/); home-service contexts include [Achareh](https://achareh.co/) and [Khedmat Az Ma](https://khedmatazma.com/). Official homepages read 2026-10-03 for category context only. Match the actual job, seller, city, stock, account and date before comparing. A comparison service and a merchant need not have equivalent checkout responsibilities; no current ranking or affiliation is implied.
+
+Synthetic comparison: A lists 250,000 toman with unknown shipping; B lists a final 2,800,000 rial including shipping. B normalizes to 280,000 toman; A's final total is unknown, so an overall cheapest conclusion is unsupported. Return the missing evidence and a target-design recommendation, not a fabricated winner.

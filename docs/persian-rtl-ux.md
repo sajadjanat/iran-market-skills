@@ -37,3 +37,7 @@ RTL does not choose a calendar, timezone or rial/toman display. Search normaliza
 ## Local form and state contracts
 
 Test Latin, Persian and Arabic-Indic digits under each field contract; preserve leading zeroes. Choose language, region, calendar and timezone separately. The [RTL reference](../skills/persian-rtl-ux/references/rtl-localization.md) adds address eligibility, named timezone handling, font fallback and pending-payment states; the [corpus](../skills/persian-rtl-ux/references/test-cases.md) supplies synthetic cases. These additions have behavioral plan evaluations; they do not expand the previously measured demo runtime coverage.
+
+## Iranian operating details
+
+The [Iranian implementation contracts](../skills/persian-rtl-ux/references/rtl-localization.md) covers the task-specific Iran checks. See the [Persian coverage map](iran-context.fa.md) for example inputs and applicable skills. Provider policies and audience assumptions remain explicit; the new reference examples are authored demonstrations, not independent model evaluation results.

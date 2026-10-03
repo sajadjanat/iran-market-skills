@@ -50,3 +50,19 @@ This pattern demonstrates boundaries; it is not a complete application or a test
 | Shaping/font fallback | می‌روم، کی، یِ، ۰۱۲۳; delayed font loading | No broken joins/clipped marks; readable fallback, zoom and wrapping |
 
 For amount tests, record a known stored value and expected display/request values using the explicitly agreed conversion; never derive the contract from a screenshot. Simulated interrupted-network tests measure the fixture's recovery behavior, not national network conditions.
+
+## Additional synthetic Iranian contract cases
+
+| Input/contract | Expected invariant |
+|---|---|
+| Store rial 2500000; display toman | Display ۲۵۰٬۰۰۰ تومان; IRR request remains 2500000 when the provider contract requires rial; convert only once |
+| Store rial 2500001 | Ask for fractional/rounding policy; do not silently floor to 250000 toman |
+| Item 250000 toman + shipping 30000 | Final total 280000 toman; do not treat unknown shipping as zero |
+| Accepted phones 09120000000 / +989120000000 | Equivalent canonical Iranian mobile under agreed parsing; do not retain trunk zero after +98 |
+| OTP ۰۱۲۳ / ٠١٢٣ / 0123 | Canonical string 0123; ownership/expiry not inferred |
+| Booking instant near Tehran midnight | Same instant; selected calendar/zone display, with day-boundary check |
+| Date-only booking | Preserve selected service date; do not accidentally shift through UTC conversion |
+| Address city changes outside coverage | Explain ineligibility, preserve address and identify available recovery |
+| Network timeout after submit | Unresolved state until verified; retained order and actual duplicate-prevention/status contract |
+
+These are expected cases, not new runtime test results.

@@ -9,6 +9,8 @@ compatibility: Live inspection needs browser or app access. Supplied screenshots
 
 Compare observable behavior for one task. Apply the [evidence policy](references/evidence-policy.md); a convenience sample is not an industry ranking.
 
+For Iranian projects, read the **Iranian task comparison checks** section in [the task reference](references/benchmark-method.md) when money, payments, phone/SMS, fulfillment or local dates affect the request. Apply relevant checks only; keep other Persian regions and the user’s scope intact.
+
 ## Workflow
 
 1. **Bound the comparison.** Define task, audience, device, locale, products and why each belongs. Keep conditions comparable; identify differences preventing a fair comparison. Finish with task and sampling rationale.

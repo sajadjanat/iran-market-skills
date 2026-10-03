@@ -1,4 +1,4 @@
 interface:
   display_name: "Iran Product Benchmark"
   short_description: "Compare Iranian product flows with dated observations"
-  default_prompt: "Use $iran-product-benchmark to compare this task under matched city, device and order conditions, with dated observations and unobserved states explicit."
+  default_prompt: "For relevant Iranian tasks, state money units, local input/service contracts and evidence limits. Use $iran-product-benchmark to compare this task under matched city, device and order conditions, with dated observations and unobserved states explicit."

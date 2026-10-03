@@ -2,6 +2,9 @@
 
 ## [0.2.0] - Unreleased
 
+- Expanded task-specific Iranian operating contracts across the five skills: money units and totals, payment recovery, SMS/mobile, calendar, service addresses, interruptions, trust and local/seasonal search.
+- Added a Persian 16-topic coverage map, five synthetic contract cases and additional RTL test inputs. New model-case outcomes remain unmeasured.
+
 - Added Claude Code, Claude web/desktop ZIP onboarding and other-agent installation routes, with a seven-target isolated CLI installation record.
 - Added reproducible per-skill ZIP packaging, archive regression checks and CI artifacts.
 - Corrected the maintainer name to Sajad Jannat (سجاد جنت); GitHub account slug remains sajadjanat.

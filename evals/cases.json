@@ -180,5 +180,76 @@
       "Treats seasonal demand and query volumes as unverified",
       "Does not claim current policy was browsed or ranking forecast"
     ]
+  },
+  {
+    "id": "rtl-iran-contracts",
+    "skill": "persian-rtl-ux",
+    "request": "فقط از قرارداد ساختگی فایل، طرح بررسی رابط بده: تبدیل ریال/تومان، مبلغ غیرقابل‌تقسیم، گوشی و OTP، تاریخ فقط‌روز و لحظه، نشانی خارج پوشش و قطع اینترنت پس از پرداخت را پوشش بده. کد یا مرورگر نداریم.",
+    "fixtures": [
+      "evals/fixtures/iran-operating-contracts.json"
+    ],
+    "criteria": [
+      "Converts 2500000 rial to 250000 toman once and total to 280000 toman",
+      "Flags fractional/rounding decision for 2500001 rial",
+      "Keeps canonical phone/OTP strings and leading zeroes",
+      "Distinguishes date-only from instant and names selected calendar/zone",
+      "Marks SMS/backend/runtime unverified and preserves unresolved payment"
+    ]
+  },
+  {
+    "id": "copy-iran-contracts",
+    "skill": "persian-brand-copy",
+    "request": "برای قرارداد ساختگی فایل، متن فارسی مبلغ نهایی، پرداخت ناموفق تأییدشده، پرداخت نامشخص، کد نادرست و نشانی خارج پوشش بنویس. قواعد ۷۲ ساعت را فقط همان جای مجاز استفاده کن.",
+    "fixtures": [
+      "evals/fixtures/iran-operating-contracts.json"
+    ],
+    "criteria": [
+      "States total 280000 toman with supplied components",
+      "Applies supplied 72-hour policy only to verified failure with source-account return and support route",
+      "Adds no refund/debit/retry claim to pending state",
+      "Adds no invented OTP expiry/resend or unsupported service promise"
+    ]
+  },
+  {
+    "id": "benchmark-iran-contracts",
+    "skill": "iran-product-benchmark",
+    "request": "با فایل ساختگی، پیشنهاد A به مبلغ ۲۵۰ هزار تومان با ارسال نامعلوم و B به مبلغ نهایی ۲ میلیون و ۸۰۰ هزار ریال را مقایسه کن. صفحه زنده نداریم؛ ورود، پشتیبانی، ارسال و پرداخت را بررسی‌شده حساب نکن.",
+    "fixtures": [
+      "evals/fixtures/iran-operating-contracts.json"
+    ],
+    "criteria": [
+      "Normalizes B to 280000 toman and preserves original units",
+      "Leaves final A unknown and declares no cheapest overall winner",
+      "Reports artifact/contract comparison rather than observed live flows",
+      "Names comparable city/payment/support evidence to gather"
+    ]
+  },
+  {
+    "id": "market-iran-contracts",
+    "skill": "iran-market-discovery",
+    "request": "برای خدمت تعمیر فرضی فقط در شیراز، با قرارداد فایل برنامه مصاحبه بده تا بفهمیم توقف رزرو از هزینه نهایی، پیش‌پرداخت، پیامک یا محدوده خدمت است. هیچ مشتری یا داده ملی نداریم.",
+    "fixtures": [
+      "evals/fixtures/iran-operating-contracts.json"
+    ],
+    "criteria": [
+      "Labels all proposed barriers hypotheses",
+      "Uses neutral last-experience questions and real service-area recruitment",
+      "Includes total-cost unit, SMS/recovery and alternative-provider questions only when relevant",
+      "Makes no national demand/trust claim or inferred famous-brand preference"
+    ]
+  },
+  {
+    "id": "seo-iran-contracts",
+    "skill": "persian-seo",
+    "request": "برای فروشگاه فرضی با قیمت نمایشی ۲۵۰ هزار تومان و اسکیما IRR=250000، فقط برنامه اصلاح بده؛ دسترسی سایت نداریم. خدمات فقط شیراز است و تاریخ شمسی داریم. پیشنهاد ۳۰ صفحه شهر بدون خدمت و قراردادن تاریخ شمسی در فیلد ISO را هم بررسی کن. اینترنت ممنوع است.",
+    "fixtures": [
+      "evals/fixtures/iran-operating-contracts.json"
+    ],
+    "criteria": [
+      "Corrects conventional priceCurrency IRR amount to 2500000 and does not invent IRT ISO code",
+      "Separates localized date display from required machine format",
+      "Rejects fabricated service areas and duplicate spelling/location pages",
+      "Keeps current policy/indexing/SMS/traffic unverified"
+    ]
   }
 ]

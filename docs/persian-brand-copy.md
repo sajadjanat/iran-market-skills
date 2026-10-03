@@ -32,3 +32,7 @@ Orthography does not determine brand voice. Supplied colloquial style should not
 ## Operational Persian messages
 
 Keep pending payment, confirmation, cancellation and refund outcomes distinct. Use only supplied recovery actions and time limits. The [writing reference](../skills/persian-brand-copy/references/persian-writing.md) adds original OTP/payment/service-area examples, register consistency and seasonal checks. Test what readers understand after the CTA, not merely which wording they like.
+
+## Iranian operating details
+
+The [Iranian operational copy checklist](../skills/persian-brand-copy/references/persian-writing.md) covers the task-specific Iran checks. See the [Persian coverage map](iran-context.fa.md) for example inputs and applicable skills. Provider policies and audience assumptions remain explicit; the new reference examples are authored demonstrations, not independent model evaluation results.

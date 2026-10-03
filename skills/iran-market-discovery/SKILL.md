@@ -9,6 +9,8 @@ compatibility: Current market research needs browsing or dated user-supplied sou
 
 Turn a product question into an evidence-backed next decision. Apply the bundled [evidence policy](references/evidence-policy.md); national statistics provide context, not product-level demand.
 
+For Iranian projects, read the **Iranian-context discovery questions** section in [the task reference](references/public-sources.md) when money, payments, phone/SMS, fulfillment or local dates affect the request. Apply relevant checks only; keep other Persian regions and the user’s scope intact.
+
 ## Workflow
 
 1. **Frame the decision.** Establish category, proposed customer/job, geography, period and decision to make. Ask only for missing information that changes the result; otherwise record bounded assumptions. Finish with an explicit question and scope; record language separately from market/service area and use the source guide’s local-context interview prompts when segment assumptions matter.

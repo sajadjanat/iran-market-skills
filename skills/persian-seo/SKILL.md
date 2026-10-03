@@ -9,6 +9,8 @@ compatibility: Current audits need page access and official documentation. Searc
 
 Tie recommendations to actual URLs and user value. Apply the [evidence policy](references/evidence-policy.md). Read [SEO sources](references/seo-sources.md) to verify guidance and [audit method](references/audit-method.md) for Persian variants, technical checks and reporting.
 
+For Iranian projects, read the **Iranian commerce and local-page checks** section in [the task reference](references/audit-method.md) when money, payments, phone/SMS, fulfillment or local dates affect the request. Apply relevant checks only; keep other Persian regions and the user’s scope intact.
+
 ## Workflow
 
 1. **Bound the audit.** Establish page set, audience, geography, engine and goal. Note access to live/rendered pages, robots responses and owner-supplied performance/indexing data. Finish with scope and access limits.

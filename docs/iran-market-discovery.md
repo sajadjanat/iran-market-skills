@@ -35,3 +35,7 @@ Blocked sources are marked, not substituted with invented numbers. Exploratory i
 ## Local customer research
 
 Record the actual service area, recent customer episode, decision maker/payer, language, channel and relevant access/payment constraints. The [source guide](../skills/iran-market-discovery/references/public-sources.md) now includes neutral Persian interview prompts, recruiting limits and seasonal verification. Ask what people actually did before testing what they might buy.
+
+## Iranian operating details
+
+The [Iranian-context discovery questions](../skills/iran-market-discovery/references/public-sources.md) covers the task-specific Iran checks. See the [Persian coverage map](iran-context.fa.md) for example inputs and applicable skills. Provider policies and audience assumptions remain explicit; the new reference examples are authored demonstrations, not independent model evaluation results.

@@ -55,3 +55,28 @@ Fictional formal-voice checkout with a real status-view action; backend has not 
 - OTP, only when provided: «کد واردشده درست نیست. کد را بررسی کنید.» Do not add a resend timer or expiry cause absent in the brief.
 
 For a Nowruz or other seasonal campaign, check actual offer, audience relevance, year/calendar, timezone, stock, fulfillment cutoffs and support availability. Draft greetings as optional creative choices; holiday sentiment does not prove buying behavior. These examples are authored demonstrations, not validated audience preferences.
+
+## Iranian operational copy checklist
+
+Use only facts in the target product's brief; the following examples are authored, fictional teaching cases, not model benchmarks or national rules.
+
+| Moment | Required facts and wording decision |
+|---|---|
+| Price | Explicit rial/toman unit and final total. Under this example's conventional contract, 250,000 toman = 2,500,000 rial. Do not attach a toman label to an unconverted rial value or hide shipping/fees until payment. |
+| Payment method | Name only supported methods: gateway, card transfer, payment on delivery or installments. Receipt upload is a submitted claim, not verified payment; installment eligibility/fees need actual terms. |
+| Failed payment | Confirmed state, applicable provider deadline, refund destination and follow-up action. Pending verification, bank reversal, approved merchant refund and wallet credit are different states. |
+| SMS sign-in | Known destination, actual invalid/expired state, server-approved expiry/resend period and available recovery action. Never invent a timer or assume delayed delivery means invalid code. |
+| Address/delivery | Actual city/service coverage, fulfillment method, known shipping charge and confirmed timing; explain an unsupported address without deleting entered data. |
+| Date/occasion | Agreed Solar Hijri/Gregorian display and timezone, actual year, holiday cutoffs and support availability. Nowruz/Yalda greetings do not establish a customer's religion or preference. |
+| Trust/support | Verifiable seller identity/contact, accessible terms and the actual order-follow-up route. A logo or badge alone is not a guarantee of seller quality or bank endorsement. |
+| Network interruption | State what is known and offer the actual status/recovery action. Do not say paid, failed or try paying again merely because the connection broke. |
+
+### Authored examples from supplied contracts
+
+- Final total, when all components are supplied: «کالا: ۲۵۰٬۰۰۰ تومان؛ ارسال: ۳۰٬۰۰۰ تومان؛ مبلغ قابل پرداخت: ۲۸۰٬۰۰۰ تومان.»
+- Confirmed failed payment, only when this provider policy is supplied: «پرداخت ناموفق بود. اگر مبلغی از حسابتان کسر شده، حداکثر تا ۷۲ ساعت به همان حساب برمی‌گردد.» Follow-up after that period: «شمارهٔ پیگیری، مبلغ و زمان پرداخت را برای پشتیبانی بفرستید.» CTA «پیگیری پرداخت» requires an actual support-follow-up action. Do not reuse 72 hours for unknown gateways, successful-payment refunds or every bank transaction. [Dona's own help policy](https://help.doona.ai/hc/articles/68/rd-kht-n-mofk-mblgh-z-hs-bm-sr-shd-h-nm), read 2026-10-03, supports that merchant's failed-payment scenario, not a universal banking deadline.
+- Uploaded transfer receipt, awaiting actual review: «رسید دریافت شد؛ پرداخت پس از بررسی تأیید می‌شود.»
+- Invalid SMS code, when supplied: «کد واردشده درست نیست. کد پیامک‌شده را دوباره بررسی کنید.»
+- Missing delivery price: «هزینهٔ ارسال بعد از انتخاب نشانی مشخص می‌شود.» Use only if that is what the product actually does.
+
+Use familiar Iranian product names only to clarify relevant context. Do not imply partnership, copy their voice/assets without rights or fabricate their prices/policies. Preserve the actual audience's formality and names; Iranian context is not permission to stereotype. For financial/identity support, do not solicit PIN, CVV2, full card secrets or authentication codes through generic support copy.

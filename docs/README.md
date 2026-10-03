@@ -13,3 +13,5 @@ Start with [installation](installation.md). For product research, discovery can 
 Examples demonstrate output shape, not measured model performance or market truth. [Behavioral evaluation](../evals/README.md) records actual runs separately.
 
 For a consented real-user pilot, use the [Persian validation guide](user-validation.fa.md).
+
+- [Iranian operating details — Persian coverage map](iran-context.fa.md)

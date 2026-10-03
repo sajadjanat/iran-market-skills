@@ -12,6 +12,10 @@ See the original synthetic [before](examples/rtl/before.html) and [after](exampl
 
 Works with standard skill loaders, including Claude Code and the Skills CLI destinations. Claude web/desktop has per-skill ZIP downloads; see [installation routes](docs/installation.md#claude-code). For a visual comparison, see [before and after on Sepehra](https://sepehra.ir/skills/#examples).
 
+## Iranian operating details
+
+[Persian 16-topic coverage map](docs/iran-context.fa.md): money units and final cost, payment recovery, mobile/SMS, selected calendar, address/service area, RTL, trust and local search. Relevant rules are bundled inside each independent skill; provider policies and audience behavior are not inferred.
+
 ## Install
 
 With Node.js and Git available, use the [Skills CLI](https://github.com/vercel-labs/skills). Check the current CLI's Node requirement.

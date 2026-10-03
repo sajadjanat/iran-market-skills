@@ -1,0 +1,47 @@
+{
+  "synthetic": true,
+  "money": {
+    "storage": "IRR",
+    "display": "toman",
+    "rial": 2500000,
+    "toman": 250000,
+    "shipping_toman": 30000,
+    "total_toman": 280000,
+    "fractional_rial": 2500001
+  },
+  "phone": {
+    "accepted": [
+      "09120000000",
+      "+989120000000"
+    ],
+    "otp": [
+      "0123",
+      "۰۱۲۳",
+      "٠١٢٣"
+    ]
+  },
+  "calendar": {
+    "display": "persian",
+    "timezone": "Asia/Tehran",
+    "booking_date_only": "1405-07-15"
+  },
+  "payments": {
+    "pending": {
+      "verified": false,
+      "deduction": "unknown"
+    },
+    "failed": {
+      "verified": true,
+      "provider_policy_hours": 72,
+      "return_destination": "source account",
+      "support": "reference, amount and time"
+    }
+  },
+  "constraints": {
+    "service_area": "Shiraz only",
+    "shipping_for_other_offer": "unknown",
+    "sms_delivery": "unobserved",
+    "holiday_support": "unknown",
+    "search_console": "unavailable"
+  }
+}

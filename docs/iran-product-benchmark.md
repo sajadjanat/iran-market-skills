@@ -32,3 +32,7 @@ A screenshot cannot establish keyboard behavior, checkout completion or fulfillm
 ## Transaction conditions
 
 Match city/order eligibility and compare full cost, gateway-return states, delivery exceptions, support and interruption recovery. The [benchmark method](../skills/iran-product-benchmark/references/benchmark-method.md) separates visible trust signals from confirmed validity or customer trust. Provider-specific payment behavior needs the actual integration contract.
+
+## Iranian operating details
+
+The [Iranian task comparison checks](../skills/iran-product-benchmark/references/benchmark-method.md) covers the task-specific Iran checks. See the [Persian coverage map](iran-context.fa.md) for example inputs and applicable skills. Provider policies and audience assumptions remain explicit; the new reference examples are authored demonstrations, not independent model evaluation results.

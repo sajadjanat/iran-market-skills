@@ -8,6 +8,8 @@ license: MIT
 
 Write natural Persian fitting the brief and preserving verified offer facts. Apply the [evidence policy](references/evidence-policy.md). Read the [writing reference](references/persian-writing.md) when choosing orthography/register or checking placement-specific copy.
 
+For Iranian projects, read the **Iranian operational copy checklist** section in [the task reference](references/persian-writing.md) when money, payments, phone/SMS, fulfillment or local dates affect the request. Apply relevant checks only; keep other Persian regions and the user’s scope intact.
+
 ## Workflow
 
 1. **Read the brief.** Identify audience, channel, desired action, offer facts, brand examples, terminology and real length constraints. Ask for missing facts that change a claim; otherwise record assumptions. Keep approved facts separate from creative choices.

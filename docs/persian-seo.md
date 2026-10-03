@@ -31,3 +31,7 @@ Trends values are normalized relative signals and can contain low-volume noise. 
 ## Local and seasonal pages
 
 A city page needs actual coverage and useful local facts; neither a city-name swap nor a fictional branch helps the user. The [audit method](../skills/persian-seo/references/audit-method.md) adds Persian/Latin brand intent, regional feature eligibility, offer freshness and comparable seasonal measurement.
+
+## Iranian operating details
+
+The [Iranian commerce and local-page checks](../skills/persian-seo/references/audit-method.md) covers the task-specific Iran checks. See the [Persian coverage map](iran-context.fa.md) for example inputs and applicable skills. Provider policies and audience assumptions remain explicit; the new reference examples are authored demonstrations, not independent model evaluation results.
