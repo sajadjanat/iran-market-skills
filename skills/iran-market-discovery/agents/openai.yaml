@@ -1,0 +1,4 @@
+interface:
+  display_name: "Iran Market Discovery"
+  short_description: "Research Iranian market opportunities with evidence"
+  default_prompt: "Research this product opportunity in Iran. Separate sourced facts, observations, user evidence, and assumptions."
