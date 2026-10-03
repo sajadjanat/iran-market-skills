@@ -9,7 +9,7 @@
 - Added English/Persian onboarding, per-skill guides, synthetic examples, contribution guidance and release checks.
 - Added offline packaging validation, regression checks and behavioral evaluation scenarios.
 
-This entry describes the prepared working tree. It does not assert a published GitHub release or marketplace listing.
+This entry describes the prepared release candidate. It does not assert a published GitHub release or marketplace listing.
 
 ## [0.1.0] - 2026-10-03
 
