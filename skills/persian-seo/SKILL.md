@@ -1,20 +1,24 @@
 ---
 name: persian-seo
-description: Audit or plan SEO for Persian-language websites, including technical accessibility, content intent, metadata, and localized pages. Use when improving organic search visibility for a Persian site or an Iran-focused audience.
+description: Audit or plan organic search improvements for Persian sites using page evidence and current engine guidance. Use for technical SEO, Persian query intent, localized pages or prioritizing content improvements.
+license: MIT
+compatibility: Current audits need page access and official documentation. Search Console exports are optional private inputs; offline reviews state their limits.
 ---
 
-# Persian Seo
+# Persian SEO
 
-Use this skill for a concrete site, page set, query, and search engine. Separate general search-engine documentation from evidence about Iranian search demand.
+Tie recommendations to actual URLs and user value. Apply the [evidence policy](references/evidence-policy.md). Read [SEO sources](references/seo-sources.md) to verify guidance and [audit method](references/audit-method.md) for Persian variants, technical checks and reporting.
 
 ## Workflow
 
-1. Define the target site, audience, geography, search engine, and goal. Ask for Search Console or analytics data when the task needs private performance facts; otherwise work from public pages and label the limits.
-2. Check current official documentation for the selected search engine. Browse for changing crawl, indexing, structured-data, or spam guidance.
-3. Inspect the site's crawlability, indexable content, URL and canonical structure, language/locale signals, internal links, page quality, and mobile experience as relevant to the request.
-4. Research query intent using available first-party data and current public results. Treat trend indices as relative signals, not absolute search volumes. Never invent keyword volume, ranking, or traffic forecasts.
-5. Recommend page-level changes that add useful, distinct information for people. For large product or deal catalogs, assess whether each indexable page has enough unique value to deserve a search landing page.
+1. **Bound the audit.** Establish page set, audience, geography, engine and goal. Note access to live/rendered pages, robots responses and owner-supplied performance/indexing data. Finish with scope and access limits.
+2. **Inspect technical evidence.** Check relevant status, crawl controls, indexing directives, canonical targets, rendered content, links and mobile accessibility. Check language variants only where they exist. Distinguish markup from the engine's selected canonical/indexing state; the latter requires engine data. Read current official guidance for recommendations affected by changing policies.
+3. **Research Persian intent.** Use supplied query data and accessible search evidence; record date, engine, locale and collection limits. Cluster meaningful spelling/register variants, including ی/ک and نیم‌فاصله, by intent. Check URLs/Unicode encoding without bulk-renaming. Trends shows relative interest; retain original query spelling in evidence. Finish with supported clusters and labeled demand gaps.
+4. **Prioritize changes.** Give URL, evidence, benefit, severity, confidence and fix. Assess unique value before proposing catalog/location pages at scale. Structured data must be supported, eligible and truthful to visible content; verify currency/schema values rather than inventing a toman code. Separate technical blockers from content hypotheses.
+5. **Plan verification.** Name post-change checks and baseline/window. Compare equivalent periods and note seasonality, campaigns or tracking changes. For implementation requests, make authorized changes and verify affected pages. Audit completion does not authorize publishing or requesting credentials.
 
-## Completion
+## Deliverable and completion
 
-Return prioritized findings with affected URLs, evidence, expected user benefit, confidence, and measurement plan. Separate confirmed technical issues from search-demand hypotheses. Read [Persian SEO references](references/seo-sources.md) for official starting points and data limitations.
+Return scope, prioritized URL-level findings, confirmed facts versus hypotheses, fixes, unverified checks and measurement plan. Each finding needs evidence; current indexing, traffic and demand claims need appropriate data. Separate Persian-specific considerations from universal engine guidance.
+
+Without browsing, produce an artifact review/plan and mark current policies unverified. Without performance data, make no traffic-loss claim or numeric forecast. Never equate language markup, a sitemap or structured data with guaranteed indexing/ranking.

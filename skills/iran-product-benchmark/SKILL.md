@@ -1,20 +1,24 @@
 ---
 name: iran-product-benchmark
-description: Benchmark the public UX and product flows of Iranian websites and apps against a defined task or audience. Use when comparing local digital products, storefronts, marketplaces, or their public design-system guidance.
+description: Compare Iranian websites or apps for a defined user task using dated UX observations. Use for competitor flow reviews, local product benchmarks or choosing patterns for a Persian product.
+license: MIT
+compatibility: Live inspection needs browser or app access. Supplied screenshots and recordings support a bounded artifact review.
 ---
 
 # Iran Product Benchmark
 
-Use this skill to compare real products for a defined user task. Treat the set of products as a dated sample, not a representative survey of Iranian users or companies.
+Compare observable behavior for one task. Apply the [evidence policy](references/evidence-policy.md); a convenience sample is not an industry ranking.
 
 ## Workflow
 
-1. Define the task, audience, device, and product category. Choose direct competitors and useful substitutes; state why each is in scope.
-2. Inspect current public pages or app listings. If a flow requires login or is inaccessible, use a user-provided screenshot or mark it unobserved. Do not infer hidden states.
-3. Record the URL, date, device or viewport, app version when available, task steps, and concise evidence. Separate what was seen from what it may mean.
-4. Compare the parts relevant to the task: discovery, search, filtering, product or service details, price and offer clarity, trust cues, delivery or fulfillment, and recovery from errors. Select only the dimensions that apply.
-5. Identify reusable patterns and trade-offs. Explain which pattern fits the target product and why; do not copy a competitor's visual identity or present one example as an industry norm.
+1. **Bound the comparison.** Define task, audience, device, locale, products and why each belongs. Keep conditions comparable; identify differences preventing a fair comparison. Finish with task and sampling rationale.
+2. **Inspect the flow.** Follow the task where authorized access permits; use supplied artifacts for other states. Record URL/artifact ID, date, viewport/device, version when known, and observed steps. A screenshot supports only its visible state. Mark hidden/login-only steps unobserved; do not complete purchases or contact sellers merely to benchmark.
+3. **Record evidence.** Use the [benchmark method](references/benchmark-method.md) for dimensions, records and uncertainty. Separate visible evidence from interpretation. If ratings help the decision, define a rubric and show missing data separately rather than scoring unknowns as failures.
+4. **Compare trade-offs.** Select dimensions relevant to the task: discovery, decision support, price/currency clarity, fulfillment information, recovery, accessibility or copy. Finish with a dated table, evidence for each finding and comparability limitations.
+5. **Transfer findings.** Recommend patterns for the target product with supporting observations, audience fit and validation needed. Adapt interaction ideas while preserving the target brand and constraints. Finish with actionable design implications.
 
-## Completion
+## Deliverable and completion
 
-Deliver a dated comparison table, evidence links, notable patterns, gaps, and design implications for the requested product. Read [benchmark method](references/benchmark-method.md) for the observation template and public examples. Keep any screenshots in the user's workspace; publish source links and metadata rather than third-party screen captures unless reuse permission is clear.
+Return scope/conditions, comparison table, observation references, patterns/trade-offs, unobserved steps and next design checks. All scored or categorical judgments must trace to observations and a stated criterion. Distinguish static appearance from tested interaction and reported features from observed behavior.
+
+With screenshots only, label an artifact review. With no accessible artifacts, deliver a comparison plan and requested evidence. Observed flows do not prove conversion, user preference, market share or fulfillment quality. Keep screenshots in the user's workspace; publication requires appropriate reuse rights.

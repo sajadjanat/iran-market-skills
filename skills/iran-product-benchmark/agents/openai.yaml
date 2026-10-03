@@ -1,4 +1,4 @@
 interface:
   display_name: "Iran Product Benchmark"
-  short_description: "Compare Iranian app and website UX with dated evidence"
-  default_prompt: "Benchmark these Iranian digital products for the specified user task. Record dated observations and separate evidence from interpretation."
+  short_description: "Compare Iranian product flows with dated observations"
+  default_prompt: "Use $iran-product-benchmark to compare these products for the specified user task and report unobserved steps."

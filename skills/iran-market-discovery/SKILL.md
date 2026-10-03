@@ -1,20 +1,24 @@
 ---
 name: iran-market-discovery
-description: Research Iranian market opportunities, customer segments, competitors, and product assumptions from public sources and user evidence. Use when deciding what to build, who to serve, or how to validate demand in Iran.
+description: Research a product opportunity in Iran using sourced market evidence, competitor comparisons and demand-validation experiments. Use when choosing a customer segment, evaluating an opportunity or testing demand assumptions.
+license: MIT
+compatibility: Current market research needs browsing or dated user-supplied sources. Private interviews and analytics are optional inputs.
 ---
 
 # Iran Market Discovery
 
-Use this skill to make a specific product or market decision for Iran. It is a research workflow, not a claim that public statistics reveal a single Iranian consumer profile.
+Turn a product question into an evidence-backed next decision. Apply the bundled [evidence policy](references/evidence-policy.md); national statistics provide context, not product-level demand.
 
 ## Workflow
 
-1. Define the decision, product category, target segment, geography, and time period. If one of these changes the answer and is unknown, ask a short clarifying question or state a bounded assumption.
-2. Gather current evidence. Prefer official statistics, first-party company pages, official app-store listings, public reports from their publisher, and direct customer evidence. Browse for sources that may have changed.
-3. Record each important claim with its source, publication or observation date, scope, and limitation. Use [Evidence labels](../../DATA-POLICY.md) consistently.
-4. Compare direct competitors and substitutes. Separate published facts from observed product behavior, user-reported evidence, and inference.
-5. Recommend a small number of opportunities or validation experiments. For each, state the evidence, confidence, unresolved assumption, and a low-cost next step.
+1. **Frame the decision.** Establish category, proposed customer/job, geography, period and decision to make. Ask only for missing information that changes the result; otherwise record bounded assumptions. Finish with an explicit question and scope.
+2. **Collect evidence.** Read the [source guide](references/public-sources.md) when selecting Iranian sources. Prefer original publications, company terms and user-supplied research. Capture publication/collection dates, segment, units and limitations using the [evidence record](references/evidence-record.md). A homepage or unavailable report is not evidence for its numbers. Finish with an evidence ledger, including gaps and contradictory findings.
+3. **Compare alternatives.** Include direct competitors and substitutes such as informal providers or doing nothing when relevant. Compare customer job, offer, published price/currency, access, fulfillment and visible trust conditions. Mark unknowns instead of assigning unsupported market share or quality scores. Finish with a task-relevant comparison linked to evidence.
+4. **Make the decision.** Explain which option evidence supports, which inference connects it to the recommendation and what could overturn it. If demand is unproven, recommend validation before commitment. Match confidence to evidence relevance and sampling, not source count.
+5. **Design the next test.** For material unresolved assumptions, name participants, method, observable signal, a threshold agreed with the owner and the decision after either outcome. Treat interviews as exploratory unless sampling supports a broader claim. Finish with a practical validation plan.
 
-## Completion
+## Deliverable and completion
 
-Finish with a decision-ready summary, a compact competitor or segment comparison, evidence gaps, and a practical validation plan. Do not present aggregate national statistics as proof of demand for a particular product. Read [public source guide](references/public-sources.md) when identifying Iranian data sources and [evidence record](references/evidence-record.md) when organizing findings.
+Return decision/scope, evidence ledger, competitor or segment comparison, recommendation with confidence, and next tests. Every material factual claim needs a source or user-evidence record; every demand claim must distinguish observation from hypothesis. State units explicitly, including rial versus toman and nominal versus inflation-adjusted figures when applicable.
+
+With no browsing or dated sources, deliver a research plan and labeled hypotheses, not a current-market conclusion. With inaccessible sources, show the supported result and missing checks. Completion means the user can decide what to investigate or test next; it does not mean demand has been proved.
