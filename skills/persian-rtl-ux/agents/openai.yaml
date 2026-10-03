@@ -1,0 +1,4 @@
+interface:
+  display_name: "Persian Rtl Ux"
+  short_description: "Build and audit Persian RTL product interfaces"
+  default_prompt: "Review this interface for Persian localization and RTL issues. Separate standards-based fixes from product choices."
