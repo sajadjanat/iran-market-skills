@@ -28,3 +28,7 @@ Copy fits the requested placement/register and every promise matches supplied fa
 ## Common limits
 
 Orthography does not determine brand voice. Supplied colloquial style should not be flattened into formal language. Scarcity, deadlines and guarantees require actual facts. Drafting does not authorize publication.
+
+## Operational Persian messages
+
+Keep pending payment, confirmation, cancellation and refund outcomes distinct. Use only supplied recovery actions and time limits. The [writing reference](../skills/persian-brand-copy/references/persian-writing.md) adds original OTP/payment/service-area examples, register consistency and seasonal checks. Test what readers understand after the CTA, not merely which wording they like.

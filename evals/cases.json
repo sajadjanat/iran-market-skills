@@ -123,5 +123,62 @@
       "Does not require hreflang for a single-language site",
       "Treats spelling variants as intent hypotheses needing evidence"
     ]
+  },
+  {
+    "id": "market-local-context",
+    "skill": "iran-market-discovery",
+    "request": "این یک پروژهٔ خیالی است: خدمت تعمیر در کرمان و شیراز، مخاطبان فارسی‌زبان، بدون تحقیق مشتری. هم‌بنیان‌گذار می‌گوید «ایرانی‌ها به پرداخت آنلاین اعتماد ندارند و نوروز تقاضا دوبرابر می‌شود». بدون اینترنت، برنامهٔ تحقیق فارسی بده که تصمیم بگیریم کدام مانع را بررسی کنیم.",
+    "criteria": [
+      "Does not accept national distrust or doubled seasonal demand as facts",
+      "Bounds job, area, period and transaction assumptions",
+      "Uses neutral past-episode interview questions and relevant recruiting",
+      "Separates observed action from hypothetical intent and proposes a decision-changing test"
+    ]
+  },
+  {
+    "id": "benchmark-local-state",
+    "skill": "iran-product-benchmark",
+    "request": "فقط این دو توصیف ساختگی موبایل داریم، امروز در عرض ۳۹۰: A در شیراز هزینهٔ ۲۵۰٬۰۰۰ تومان با ارسال نامعلوم و لوگوی اعتماد دارد؛ صفحهٔ بازگشت می‌گوید پرداخت موفق، تأیید سرور را نداریم. B در کرمان جمع نهایی ۲٬۸۰۰٬۰۰۰ ریال با ارسال مشخص و وضعیت در انتظار تأیید نشان می‌دهد. برای محصول خدماتی شیراز مقایسه کن؛ اینترنت و ورود نداریم.",
+    "criteria": [
+      "Labels artifact-only synthetic comparison with differing cities",
+      "Converts comparable currency amounts explicitly while retaining fee-inclusion uncertainty",
+      "Does not equate logo or callback success text with verified trust/payment",
+      "Gives actionable target-flow checks without declaring a national or overall winner"
+    ]
+  },
+  {
+    "id": "rtl-local-input",
+    "skill": "persian-rtl-ux",
+    "request": "برای اپ فرضی رزرو خدمات فارسی در ایران، فقط طرح فنی بده؛ کد یا مرورگر نداریم. قرارداد: OTP رشتهٔ ۴رقمی است و هر سه رقم لاتین/فارسی/عربی را می‌پذیرد؛ نام کاربر عیناً ذخیره می‌شود؛ مبلغ ذخیره ریال و نمایش تومان است؛ زمان نمایش Asia/Tehran و تقویم شمسی است. ورودی‌های 0123 و ۰۱۲۳ و ٠١٢٣، نام «كي می روم» و بازگشت از درگاه با وضعیت سرور نامعلوم را پوشش بده.",
+    "criteria": [
+      "Canonical OTP remains string 0123 with leading zero for three digit sets",
+      "Preserves original name while distinguishing optional search key",
+      "Makes explicit numeric rial/toman conversion and selected zone/calendar without inventing API default",
+      "Keeps unknown payment pending and provides actual-contract recovery checks",
+      "States runtime and backend unverified"
+    ]
+  },
+  {
+    "id": "copy-pending-payment",
+    "skill": "persian-brand-copy",
+    "request": "فقط یک پیام کوتاه و CTA رسمی فارسی برای این وضعیت خیالی بنویس: کاربر از درگاه برگشته ولی نتیجهٔ پرداخت هنوز تأیید نشده. دکمه فقط وضعیت سفارش را استعلام می‌کند. از کسر وجه، علت، زمان بازگشت پول و نتیجهٔ نهایی چیزی نمی‌دانیم.",
+    "criteria": [
+      "Produces usable concise Persian message and status-check CTA",
+      "Preserves unresolved state without success/failure or debit claims",
+      "Adds no refund time or retry-payment advice",
+      "Preserves narrow request and formal register"
+    ]
+  },
+  {
+    "id": "seo-local-season",
+    "skill": "persian-seo",
+    "request": "برای کسب‌وکار فرضی تعمیر کولر فقط در شیراز، برنامهٔ محتوای فارسی بده. همکار پیشنهاد ۳۰ صفحهٔ یکسان برای شهرهای بدون خدمات و عنوان «تخفیف نوروز ۱۴۰۶، مراجعه تضمینی فردا» داده؛ نه تخفیف داریم نه زمان مراجعه تأیید شده و دادهٔ جست‌وجو نداریم. مرور اینترنت در این ارزیابی ممنوع است.",
+    "criteria": [
+      "Does not propose fabricated city operations or repeated city-name landing pages",
+      "Removes unsupported discount/year/deadline promises and flags verification",
+      "Gives real coverage/useful-content and observed query research plan",
+      "Treats seasonal demand and query volumes as unverified",
+      "Does not claim current policy was browsed or ranking forecast"
+    ]
   }
 ]

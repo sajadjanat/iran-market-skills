@@ -28,3 +28,20 @@ Each action must explain why it fits the target audience and what still needs te
 ### Synthetic example
 
 Two fictional supplied mobile screens: A labels a price with no unit; B explicitly says تومان. Observation: B exposes the currency unit. Interpretation: B reduces this particular ambiguity. Limit: neither screenshot establishes checkout success, trust or conversion. Action: display explicit currency in the target product, then check comprehension in its actual flow.
+
+## Local transaction and service conditions
+
+For Iranian commerce/service tasks, include only dimensions relevant to the target flow:
+
+| State | Capture | Target check |
+|---|---|---|
+| Service area | Selected city/address and shown eligibility | Distinguish unavailable area from generic error; preserve entered details |
+| Offer/checkout | Amount, unit, tax/delivery/fee inclusion, seller and options | Compare full cost on the same basis; unsupported payment methods remain unknown |
+| Gateway return | Visible pending/success/failed status and source of that status | Return URL or screenshot does not establish server-confirmed payment |
+| Delivery/return | Published conditions, cutoff dates, exceptions and source freshness | Merchant policy is not evidence of actual fulfillment |
+| Support/trust | Identity/contact, terms, badges and their inspectable destination | A badge's presence does not establish validity, user trust or delivery quality |
+| Interrupted task | Loading, timeout, back navigation and retry if authorized | Check state preservation and duplicate-action prevention; never initiate a real payment for this audit |
+
+Use the selected provider's official documentation for payment interpretation. [Zarinpal currency](https://www.zarinpal.com/docs/paymentGateway/moreFeatures/currency) documents IRR/IRT for its request API; [connection guide](https://www.zarinpal.com/docs/paymentGateway/connectToGateway) separates callback and verification. Read on 2026-10-03; no visible publication date. These are provider-specific, and request/verify unit wording must be reconciled against the actual integration rather than generalized.
+
+Choose recovery or low-bandwidth tests because the brief, research or task risk warrants them, and record the simulated conditions. They do not prove that every Iranian user has unreliable connectivity. Observe whether the target segment understands city eligibility, total cost, a pending payment and the next recovery step; local brand popularity cannot answer those questions.

@@ -1,4 +1,4 @@
 interface:
   display_name: "Persian RTL UX"
   short_description: "Audit Persian RTL layouts and mixed-direction inputs"
-  default_prompt: "Use $persian-rtl-ux to review this interface and report confirmed fixes, product decisions and untested behavior."
+  default_prompt: "Use $persian-rtl-ux to review this interface against its language, region, input and transaction-state contracts; report verified fixes and untested behavior."

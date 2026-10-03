@@ -27,3 +27,7 @@ Recommendations identify URLs and evidence, separate technical facts from demand
 ## Common limits
 
 Trends values are normalized relative signals and can contain low-volume noise. A Persian-only site does not need invented language variants. Unicode slugs are not inherently defective. Structured data and metadata do not guarantee rankings.
+
+## Local and seasonal pages
+
+A city page needs actual coverage and useful local facts; neither a city-name swap nor a fictional branch helps the user. The [audit method](../skills/persian-seo/references/audit-method.md) adds Persian/Latin brand intent, regional feature eligibility, offer freshness and comparable seasonal measurement.

@@ -28,3 +28,7 @@ Findings have date/conditions and artifact references, interpretations are separ
 ## Common limits
 
 A screenshot cannot establish keyboard behavior, checkout completion or fulfillment. Public examples are a convenience sample. Publish observation links and original examples; keep third-party screenshots local unless rights permit reuse.
+
+## Transaction conditions
+
+Match city/order eligibility and compare full cost, gateway-return states, delivery exceptions, support and interruption recovery. The [benchmark method](../skills/iran-product-benchmark/references/benchmark-method.md) separates visible trust signals from confirmed validity or customer trust. Provider-specific payment behavior needs the actual integration contract.

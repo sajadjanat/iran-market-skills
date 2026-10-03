@@ -37,3 +37,16 @@ Select cases relevant to the component. Record runtime/browser/device, viewport,
 ```
 
 This pattern demonstrates boundaries; it is not a complete application or a tested guarantee for every browser. Keep the app's existing validation, security and locale contract.
+
+## Local input and state cases
+
+| Case | Synthetic input/state | Check |
+|---|---|---|
+| Three digit sets | 0123 / ۰۱۲۳ / ٠١٢٣ | Under an accepting field contract, canonical string is 0123; leading zero survives |
+| Phone forms | 09120000000 / +989120000000 | Accept/reject and canonical value match the backend contract; never infer an active real number |
+| Unresolved gateway return | Callback arrived; confirmation still unknown | No success claim or unsafe duplicate-payment CTA; keep order ID and actual status-check action |
+| Calendar boundary | Supplied instant around local midnight/year boundary | Format using chosen calendar/zone and verify against supported runtime; avoid handwritten leap-year shortcuts |
+| Address availability | Selected city outside supplied service area | Clear eligibility explanation; preserve non-sensitive entered details |
+| Shaping/font fallback | می‌روم، کی، یِ، ۰۱۲۳; delayed font loading | No broken joins/clipped marks; readable fallback, zoom and wrapping |
+
+For amount tests, record a known stored value and expected display/request values using the explicitly agreed conversion; never derive the contract from a screenshot. Simulated interrupted-network tests measure the fixture's recovery behavior, not national network conditions.
