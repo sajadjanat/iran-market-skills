@@ -21,6 +21,11 @@ jobs:
       - run: python -m pip install -r requirements-dev.txt
       - run: python scripts/validate_repo.py
       - run: python -m unittest discover -s tests -v
+      - run: python scripts/package_skills.py
+      - uses: actions/upload-artifact@v7
+        with:
+          name: skill-upload-zips-${{ matrix.os }}
+          path: dist/
   rtl-demo:
     runs-on: ubuntu-latest
     steps:

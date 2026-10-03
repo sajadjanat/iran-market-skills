@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-03",
+  "cli": "1.7.0",
+  "source": "local checkout",
+  "os": "Windows",
+  "method": "project --copy, isolated temporary directory",
+  "records": [
+    {
+      "agents": [
+        "claude-code"
+      ],
+      "path": ".claude/skills",
+      "skills": 5,
+      "complete_resource_bytes": "pass"
+    },
+    {
+      "agents": [
+        "codex",
+        "cursor",
+        "github-copilot",
+        "gemini-cli",
+        "opencode"
+      ],
+      "path": ".agents/skills",
+      "skills": 5,
+      "complete_resource_bytes": "pass"
+    },
+    {
+      "agents": [
+        "windsurf"
+      ],
+      "path": ".windsurf/skills",
+      "skills": 5,
+      "complete_resource_bytes": "pass"
+    }
+  ],
+  "not_tested": [
+    "Claude account ZIP upload",
+    "Claude model execution",
+    "other agents model execution",
+    "global installation"
+  ]
+}

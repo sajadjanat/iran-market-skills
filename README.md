@@ -10,6 +10,8 @@ A Persian interface can look right while breaking Latin order IDs, phone inputs 
 
 See the original synthetic [before](examples/rtl/before.html) and [after](examples/rtl/after.html) pages and the [walkthrough](docs/persian-rtl-ux.md). The example demonstrates fixes; it is not a measured conversion result.
 
+Works with standard skill loaders, including Claude Code and the Skills CLI destinations. Claude web/desktop has per-skill ZIP downloads; see [installation routes](docs/installation.md#claude-code). For a visual comparison, see [before and after on Sepehra](https://sepehra.ir/skills/#examples).
+
 ## Install
 
 With Node.js and Git available, use the [Skills CLI](https://github.com/vercel-labs/skills). Check the current CLI's Node requirement.

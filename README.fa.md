@@ -10,6 +10,8 @@
 
 صفحه‌های [قبل](examples/rtl/before.html) و [بعد](examples/rtl/after.html) یک مثال ساختگی و تألیفی‌اند. [راهنمای RTL](docs/persian-rtl-ux.md) نوع اصلاح و محدودیت بررسی را توضیح می‌دهد؛ این نمونه ادعای افزایش فروش ندارد.
 
+برای Claude Code، Codex و ایجنت‌های پشتیبان قالب اسکیل قابل نصب است. برای Claude وب و دسکتاپ، ZIP مستقل هر اسکیل آماده است؛ [روش‌های نصب](docs/installation.md#claude-code) و [نمونه‌های قبل و بعد در سپهرا](https://sepehra.ir/skills/#examples) را ببینید.
+
 ## نصب
 
 با Node.js و Git و با توجه به نسخهٔ موردنیاز CLI:

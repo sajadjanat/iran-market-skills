@@ -2,6 +2,10 @@
 
 ## [0.2.0] - Unreleased
 
+- Added Claude Code, Claude web/desktop ZIP onboarding and other-agent installation routes, with a seven-target isolated CLI installation record.
+- Added reproducible per-skill ZIP packaging, archive regression checks and CI artifacts.
+- Corrected the maintainer name to Sajad Jannat (سجاد جنت); GitHub account slug remains sajadjanat.
+
 - Added a primary-source Iran/Persian-context review and practical guidance across all five skills: region-aware discovery, transaction benchmarks, numeric/state contracts, operational copy and truthful local/seasonal SEO.
 - Added fresh-session local-context behavioral scenarios and evaluation records; no real-customer or conversion claim.
 
