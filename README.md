@@ -1,6 +1,6 @@
 # Iran Market Skills
 
-[فارسی](README.fa.md) · [MIT](LICENSE) · [Examples and guides](docs/README.md)
+[فارسی](README.fa.md) · [MIT](LICENSE) · [Examples and guides](docs/README.md) · [Explore on Sepehra](https://sepehra.ir/skills/)
 
 Five focused agent skills for researching Iranian product opportunities and building usable Persian digital products. Get a decision, a dated comparison, a concrete RTL review, usable Persian copy or a prioritized SEO audit—with evidence and unknowns visible.
 
