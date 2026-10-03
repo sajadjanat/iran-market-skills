@@ -1,0 +1,20 @@
+{
+  "name": "iran-market-skills",
+  "version": "0.1.0",
+  "description": "Evidence-led workflows for Iranian market research, Persian product UX, brand copy, and SEO.",
+  "author": {
+    "name": "Sajad Janat"
+  },
+  "homepage": "https://github.com/sajadjanat/iran-market-skills#readme",
+  "repository": "https://github.com/sajadjanat/iran-market-skills",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Iran Market Skills",
+    "shortDescription": "Evidence-led skills for Persian products and the Iranian market.",
+    "longDescription": "Five focused workflows for market discovery, Iranian product benchmarking, Persian RTL UX, Persian brand copy, and Persian SEO. Each separates sourced facts from observations and hypotheses.",
+    "developerName": "Sajad Janat",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use the relevant Iran Market Skills workflow and distinguish sourced evidence from assumptions."
+  }
+}
