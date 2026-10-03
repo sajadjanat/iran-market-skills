@@ -1,0 +1,50 @@
+{
+  "browser": "154.0.4258.53",
+  "channel": "msedge",
+  "headless": true,
+  "fixture": "synthetic RTL demo",
+  "records": [
+    {
+      "width": 390,
+      "status": "pass",
+      "checks": [
+        "before defects present",
+        "semantic language/direction",
+        "identifier text and direction",
+        "accessible label lookup",
+        "label click focuses input",
+        "input then button tab order",
+        "phone entry and selection",
+        "leading zero preserved",
+        "no horizontal page overflow"
+      ],
+      "unverified": [
+        "OS clipboard",
+        "screen reader",
+        "native mobile keyboard",
+        "backend submission"
+      ]
+    },
+    {
+      "width": 1024,
+      "status": "pass",
+      "checks": [
+        "before defects present",
+        "semantic language/direction",
+        "identifier text and direction",
+        "accessible label lookup",
+        "label click focuses input",
+        "input then button tab order",
+        "phone entry and selection",
+        "leading zero preserved",
+        "no horizontal page overflow"
+      ],
+      "unverified": [
+        "OS clipboard",
+        "screen reader",
+        "native mobile keyboard",
+        "backend submission"
+      ]
+    }
+  ]
+}

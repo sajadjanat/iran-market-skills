@@ -1,47 +1,74 @@
 # Iran Market Skills
 
-Five focused Codex skills for researching Iranian product markets and building Persian digital experiences. The pack provides repeatable workflows and source guides; it is not a database of universal Iranian preferences.
+[فارسی](README.fa.md) · [MIT](LICENSE) · [Examples and guides](docs/README.md)
 
-## Skills
+Five focused agent skills for researching Iranian product opportunities and building usable Persian digital products. Get a decision, a dated comparison, a concrete RTL review, usable Persian copy or a prioritized SEO audit—with evidence and unknowns visible.
 
-| Skill | Use it for |
-|---|---|
-| `iran-market-discovery` | Market opportunity, segment, competitor, and demand research for Iran |
-| `iran-product-benchmark` | Dated UX comparisons of Iranian apps and websites |
-| `persian-rtl-ux` | Persian localization and RTL design or implementation reviews |
-| `persian-brand-copy` | Persian brand, product, and campaign copy for a defined audience |
-| `persian-seo` | Technical and content SEO for Persian-language sites |
+## Try a concrete task
 
-Each skill has a `SKILL.md` plus focused references. The plugin manifest groups them for Codex plugin packaging. GitHub hosting alone does not install or publish a plugin to Codex's plugin directory.
+A Persian interface can look right while breaking Latin order IDs, phone inputs or keyboard labels. The RTL skill reviews these cases and distinguishes source findings from runtime checks.
 
-## Install individual skills
+See the original synthetic [before](examples/rtl/before.html) and [after](examples/rtl/after.html) pages and the [walkthrough](docs/persian-rtl-ux.md). The example demonstrates fixes; it is not a measured conversion result.
 
-Use Codex's built-in skill installer with the public repository:
+## Install
+
+With Node.js and Git available, use the [Skills CLI](https://github.com/vercel-labs/skills). Check the current CLI's Node requirement.
 
 ```bash
-python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo sajadjanat/iran-market-skills \
-  --path skills/iran-market-discovery \
-        skills/iran-product-benchmark \
-        skills/persian-rtl-ux \
-        skills/persian-brand-copy \
-        skills/persian-seo
+npx skills@latest add sajadjanat/iran-market-skills
 ```
 
-Restart or start a new Codex task after installation so the skills are discovered.
+Choose the skills and agent during installation. To inspect the collection or target one skill:
 
-## Evidence and scope
+```bash
+npx skills@latest add sajadjanat/iran-market-skills --list
+npx skills@latest add sajadjanat/iran-market-skills --skill persian-rtl-ux --agent codex
+```
 
-- Use current first-party or official sources for changing facts and cite the page used.
-- Label public facts, dated observations, user-provided evidence, and hypotheses separately.
-- Treat Iran as diverse by geography, age, income, language, access, and product context; do not infer a single national persona from aggregate statistics.
-- Keep customer research private and de-identified. Public references point to source material; the repository does not republish third-party pages or screenshots.
-- Check `DATA-POLICY.md` before adding datasets, examples, screenshots, or cultural claims.
+Restart/start a new agent task if discovery requires it. For the native Codex installer, Windows instructions, local development and updates, see [installation](docs/installation.md). Each skill contains its own references, evidence policy and MIT license.
 
-## Sources
+### First request
 
-The source guides list official and first-party references. Their URLs and status can change; each task should verify the source again when current accuracy matters. See [`research/iran-public-sources-pilot.md`](research/iran-public-sources-pilot.md) for the source review behind this pilot.
+```text
+Use $persian-rtl-ux to audit this Persian form.
+Check mixed Persian/Latin text, phone inputs, labels and responsive layout.
+Preserve stored identifiers. Report the checks you actually ran and what remains untested.
+```
 
-## Status
+For the included demo, attach examples/rtl/before.html. If you only provide source, expect a source review—not a runtime verification claim.
 
-Pilot release candidate. Source references were checked on 2026-10-03. No license file is included; the repository owner can add one before granting broader reuse rights.
+## Choose a skill
+
+| Skill | Use it for | Result / guide |
+|---|---|---|
+| iran-market-discovery | Decide what customer/opportunity to investigate in Iran | Evidence ledger and next experiment · [guide](docs/iran-market-discovery.md) |
+| iran-product-benchmark | Compare local product flows for a specific task | Dated observations and design implications · [guide](docs/iran-product-benchmark.md) |
+| persian-rtl-ux | Build or review Persian/mixed-direction UI | Scoped audit or patch and test record · [guide](docs/persian-rtl-ux.md) |
+| persian-brand-copy | Write Persian copy for an audience/offer/channel | Usable copy with factual claims checked · [guide](docs/persian-brand-copy.md) |
+| persian-seo | Prioritize search improvements for Persian pages | URL-level findings and measurement plan · [guide](docs/persian-seo.md) |
+
+Use them individually. A larger product workflow can move from discovery to benchmark, then UX/copy and SEO when those tasks are relevant; no skill silently invokes another.
+
+## Evidence and tool limits
+
+Changing facts require current sources or dated supplied evidence. Public statistics, live observations, user evidence, inference and hypotheses are separate. Lack of browsing, login, analytics or runtime access is reported rather than filled with invented facts. Private research stays de-identified.
+
+Sources were reviewed on 2026-10-03 with individual access statuses, including blocked/unavailable sources. See the [review](research/source-review-2026-10-03.md) and [data policy](DATA-POLICY.md). The earlier [pilot note](research/iran-public-sources-pilot.md) is historical context, not a current dataset.
+
+## Validation and compatibility
+
+The core packages use the [Agent Skills format](https://agentskills.io/specification); `agents/openai.yaml` provides Codex UI metadata. The CLI can discover all five. Agent-specific execution and tool support still need their own checks; discovery alone is not a compatibility guarantee.
+
+```bash
+python -m pip install -r requirements-dev.txt
+python scripts/validate_repo.py
+python -m unittest discover -s tests -v
+```
+
+Offline checks validate packaging, metadata and links. [Behavioral scenarios](evals/README.md) cover task outcomes; they require actual model runs and honest result records.
+
+## Status and contributing
+
+0.2.0 is a release candidate; publication status is recorded in [CHANGELOG.md](CHANGELOG.md). See [actual validation results](evals/results/review-2026-10-03.md) for package installation, behavioral scenarios and browser/hosted CI checks. The Codex plugin manifest packages the collection; it does not itself publish to a marketplace.
+
+See [contributing](CONTRIBUTING.md) and [release/maintenance checks](docs/releasing.md). Repository-authored material is MIT licensed; linked third-party sources retain their own rights.

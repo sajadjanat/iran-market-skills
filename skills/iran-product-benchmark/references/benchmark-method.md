@@ -1,30 +1,30 @@
-# Iranian digital-product benchmark method
+# Task-based benchmark method
 
-## Public examples to start from
+## Observation record
 
-This is a convenience sample, not a ranking or a claim of representativeness. Check the current product and date the observation.
+Capture product, source URL or artifact ID, observed date, device/viewport, version if known, task, observed steps, exact visible evidence, interpretation, confidence and implication. Record source conditions such as locale, account state and whether the page was static or interactive.
 
-- [Digikala](https://www.digikala.com/)
-- [Divar](https://divar.ir/)
-- [Snapp](https://snapp.ir/)
-- [Cafe Bazaar](https://cafebazaar.ir/)
-- [Myket](https://myket.ir/)
-- Open Persian UI references: [Farsi UI](https://github.com/farsi-ui/ui) and [PersianLabs UI](https://github.com/persianlabs/ui)
+Convenience examples include [Digikala](https://www.digikala.com/), [Divar](https://divar.ir/), [Snapp](https://snapp.ir/), [Cafe Bazaar](https://cafebazaar.ir/) and [Myket](https://myket.ir/). These are candidate products, not a verified current comparison, ranking or representative sample. Open relevant flows during the task.
 
-The open-source UI projects are implementation references, not evidence that their patterns are used by every Iranian product. Review their current license and project status before reusing code or assets.
+## Dimensions and judgments
 
-## Observation template
+| Dimension | Look for | What static artifacts cannot establish |
+|---|---|---|
+| Findability | Search, category labels, applied filters, empty states | Search relevance or recovery without interaction |
+| Decision support | Offer detail, currency, comparison basis, eligibility | Actual stock, historical price or seller quality |
+| Risk information | Published delivery, returns, payment and support terms | Fulfillment or conversion quality |
+| Interaction | Input/error/loading states, keyboard, target width | Focus or assistive-technology behavior without testing |
+| Voice | Clear labels and actions fitting the task | Audience preference without user evidence |
 
-Record `product`, `source_url`, `observed_at`, `device_or_viewport`, `app_version_if_known`, `user_task`, `steps_observed`, `visible_evidence`, `interpretation`, `confidence`, and `design_implication`.
+Use categorical descriptions when sufficient. If scoring is requested, define anchored criteria before assessing products and apply them consistently. Treat unobserved as missing, not zero; avoid a single overall score hiding incomparability. Even a tested task-completion count measures this sample, not market adoption.
 
-## Comparison dimensions
+## Report shape
 
-Choose only the dimensions that matter to the task:
+| Product/state | Observation and artifact | Interpretation | Confidence/limit | Target-product action |
+|---|---|---|---|---|
 
-- Findability: category navigation, search, filters, and empty states.
-- Decision support: product details, price, discount basis, seller identity, and relevant comparison information.
-- Trust and risk: visible delivery, payment, return, support, or verification information.
-- Interaction quality: input errors, loading, recovery, accessibility, and mobile fit.
-- Product voice: clarity and consistency of labels and calls to action.
+Each action must explain why it fits the target audience and what still needs testing. Keep public-product screenshots local unless reuse rights support publication.
 
-Do not infer checkout success, actual stock, price history, seller quality, or hidden behavior from a public screenshot. Mark inaccessible steps as unobserved. Keep screenshots in the review workspace; publish links and concise factual notes unless the asset's reuse terms permit redistribution.
+### Synthetic example
+
+Two fictional supplied mobile screens: A labels a price with no unit; B explicitly says تومان. Observation: B exposes the currency unit. Interpretation: B reduces this particular ambiguity. Limit: neither screenshot establishes checkout success, trust or conversion. Action: display explicit currency in the target product, then check comprehension in its actual flow.

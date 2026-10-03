@@ -1,20 +1,18 @@
-# Persian SEO: primary references and data limits
+# Search sources and limits
 
-Sources checked 2026-10-03. Search interfaces, policies, and tools change; verify current official documentation during work.
+Access review: 2026-10-03, research browser. Read current policy when applying it; guidance does not guarantee indexing or ranking.
 
-| Source | Use | Boundary |
+| Source | Use | Review / boundary |
 |---|---|---|
-| [Google Search documentation for developers](https://developers.google.com/search/docs/fundamentals/get-started-developers) | Crawl, indexing, site structure, and supported features | Google guidance, not a guarantee of indexing or rank |
-| [Google: Helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) | Assess distinct usefulness, trust, and automation risks | Guidance for Google Search; combine with actual user needs |
-| [Google: Managing multi-regional and multilingual sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites) | Language and regional targeting | Only relevant when the site serves multiple language/region variants |
-| [Google Search Console](https://search.google.com/search-console/about) | First-party indexing and performance data when the site owner supplies access or exports | Private property data; do not imply it is public |
-| [Google Trends data FAQ](https://support.google.com/trends/answer/4365533?hl=en) | Compare relative search interest over time and place | Sampled and normalized 0–100 values; not absolute query volumes or a survey |
+| [Google developer SEO guide](https://developers.google.com/search/docs/fundamentals/get-started-developers) | Crawlable links and accessible content | Read; universal Google guidance |
+| [Helpful content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) | Original, useful and trustworthy content | Read; update observed 2026-10-01; no universal word-count recipe |
+| [Managing multilingual sites](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites) | Actual language/region variants | Read; single-language sites do not require variants |
+| [Localized versions](https://developers.google.com/search/docs/specialty/international/localized-versions) | Hreflang implementation | Read; validate actual counterpart URLs |
+| [Canonical guidance](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) | Duplicate URL preferences and signals | Read; engine selection is separate from declared markup |
+| [Spam policies](https://developers.google.com/search/docs/essentials/spam-policies) | Scaled pages, doorway and misleading practices | Read; assess usefulness before bulk content creation |
+| [Search Console overview](https://search.google.com/search-console/about) | Owner's indexing/performance data | Read overview; private property data not accessed |
+| [Trends FAQ](https://support.google.com/trends/answer/4365533?hl=en) | Relative interest comparisons | Read; sampled/normalized, possible low-volume noise/spikes |
 
-## Reporting rules
+Never convert Trends scores into search volume. Record terms, geography, period and comparison set; isolated spikes and low-volume zeros cannot prove buying demand. Use owner-provided Search Console evidence where available and compare equivalent windows.
 
-- Name the search engine and geography behind each recommendation. Do not call global Google guidance “Iran-specific” unless separate evidence supports that claim.
-- Separate observed technical issues from search-demand hypotheses. Link the query, page, and source used.
-- Label Trends as relative interest. Never convert its index to monthly searches or forecast rank from it.
-- Use Search Console only with owner-provided access or data. Ask for an export if no connection exists.
-- For catalog and deal pages, assess distinct user value before recommending indexing at scale. A repeated title/price block is not a useful landing page by itself.
-- Measure changes against the site's own baseline and annotate major page or tracking changes.
+For supported structured data, consult the selected feature's current Google documentation and schema vocabulary during the task. Eligibility and currency must be verified for that feature. An unsupported currency abbreviation or markup added to invisible content is not a fix.

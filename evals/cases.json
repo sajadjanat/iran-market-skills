@@ -1,0 +1,127 @@
+[
+  {
+    "id": "market-offline",
+    "skill": "iran-market-discovery",
+    "request": "برای سرویس رزرو تعمیرکار در شیراز تصمیم بگیر اول کدام بخش مشتری را بررسی کنیم. هنوز مصاحبه یا آمار دسته نداریم. اینترنت در این ارزیابی در دسترس نیست؛ خروجی فارسی بده.",
+    "criteria": [
+      "Defines a bounded decision and assumptions",
+      "Labels customer/demand ideas hypotheses",
+      "Invents no current market size or shares",
+      "Gives recruiting/test plan and proposed owner-agreed decision thresholds"
+    ]
+  },
+  {
+    "id": "market-currency",
+    "skill": "iran-market-discovery",
+    "request": "Use only the supplied fictional evidence to advise the next demand experiment for this service. Explain the price comparison and conflicting claims; do not browse.",
+    "fixtures": [
+      "evals/fixtures/market-brief.json"
+    ],
+    "criteria": [
+      "Labels fixture synthetic and evidence user supplied",
+      "Identifies rial/toman comparison and period mismatch",
+      "Does not extrapolate three interviews to population demand",
+      "Gives conditional recommendation and an actionable next experiment"
+    ]
+  },
+  {
+    "id": "benchmark-static",
+    "skill": "iran-product-benchmark",
+    "request": "Compare these supplied fictional screens for choosing a mobile service offer. Only these descriptions are available; no live browser or login. Produce a Persian comparison and design implications.",
+    "fixtures": [
+      "evals/fixtures/benchmark-screens.json"
+    ],
+    "criteria": [
+      "Reports an artifact review with date/viewport",
+      "Distinguishes visible price label from conversion/fulfillment",
+      "Marks checkout/login states unobserved",
+      "Uses evidence and target-task rationale without fabricated overall scores"
+    ]
+  },
+  {
+    "id": "benchmark-plan",
+    "skill": "iran-product-benchmark",
+    "request": "اسنپ و دیوار را از نظر رزرو خدمات مقایسه کن. الان صفحه، تصویر یا دسترسی اینترنت نداریم؛ ادعای رفتار فعلی نکن و کمک کن بررسی را آماده کنیم.",
+    "criteria": [
+      "Checks task/category comparability instead of assuming identical competitors",
+      "Produces evidence-gathering plan not invented live observations",
+      "Defines dimensions/conditions for later comparison",
+      "Does not infer market share or success"
+    ]
+  },
+  {
+    "id": "rtl-source",
+    "skill": "persian-rtl-ux",
+    "request": "Audit this fictional Persian contact form using source only. Preserve identifiers and user input. Do not open a browser; report static issues and checks still needed in Persian.",
+    "fixtures": [
+      "examples/rtl/before.html"
+    ],
+    "criteria": [
+      "Finds missing semantic language/direction",
+      "Finds physical layout and mixed identifier boundaries",
+      "Finds inaccessible label/input association",
+      "Separates static review from unrun keyboard/clipboard/screen-reader checks",
+      "Preserves stored strings and does not reverse identifiers"
+    ]
+  },
+  {
+    "id": "rtl-contract",
+    "skill": "persian-rtl-ux",
+    "request": "Our bilingual fa/en app stores amounts in rial and timestamps as UTC instants. Fix its RTL plan. Product owners have not chosen calendar or display timezone. Explain what can be fixed now and what needs input; no runtime is supplied.",
+    "criteria": [
+      "Preserves storage values and bilingual contract",
+      "Does not relabel rial as toman without explicit conversion",
+      "Keeps calendar/timezone product choices explicit",
+      "Proposes semantic direction/isolation and both-locale checks",
+      "Makes no runtime verification claim"
+    ]
+  },
+  {
+    "id": "copy-offer",
+    "skill": "persian-brand-copy",
+    "request": "برای این پیشنهاد خیالی دو نسخهٔ رسمی و محاوره‌ای و یک CTA بنویس: ثبت درخواست تعمیر رایگان است؛ پس از بررسی برآورد هزینه می‌دهیم. زمان مراجعه، موجودی تعمیرکار و ارزان‌ترین بودن مشخص نیست. CTA فقط فرم درخواست را باز می‌کند.",
+    "criteria": [
+      "Preserves free request vs paid/unknown repair distinction",
+      "Makes no cheapest/guaranteed delivery/scarcity claims",
+      "CTA describes request action",
+      "Distinct registers preserve identical facts"
+    ]
+  },
+  {
+    "id": "copy-small-edit",
+    "skill": "persian-brand-copy",
+    "request": "فقط این پیام خطا را کوتاه و محاوره‌ای کن؛ راهکار همین است و علت جدید اضافه نکن: «اتصال برقرار نشد. اینترنت خود را بررسی کنید و دوباره تلاش کنید.»",
+    "criteria": [
+      "Provides usable concise Persian error and recovery",
+      "Preserves cause uncertainty",
+      "Avoids unnecessary brand strategy questions",
+      "Does not add unsupported promises"
+    ]
+  },
+  {
+    "id": "seo-offline",
+    "skill": "persian-seo",
+    "request": "Audit the supplied fictional Persian page source only. No browser, HTTP headers or Search Console access; do not claim current Google policy or indexing state was checked.",
+    "fixtures": [
+      "evals/fixtures/seo-page.html"
+    ],
+    "criteria": [
+      "Finds noindex on intended public landing and canonical does not negate it",
+      "Separates markup from live headers/engine index state",
+      "Does not invent traffic or keyword volume",
+      "Gives prioritized fix and verification plan conditional on owner intent"
+    ]
+  },
+  {
+    "id": "seo-trends",
+    "skill": "persian-seo",
+    "request": "A supplied hypothetical Trends chart has one spike at 100 for «تعمیر کولر» and 0 for «تعمیرکولر». The page is Persian-only. Recommend a research plan; no browsing or Search Console data.",
+    "criteria": [
+      "Treats values as relative normalized interest not monthly searches",
+      "Acknowledges low-volume/noise and period/geography gaps",
+      "Makes no rank or traffic forecast",
+      "Does not require hreflang for a single-language site",
+      "Treats spelling variants as intent hypotheses needing evidence"
+    ]
+  }
+]

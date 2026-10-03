@@ -1,4 +1,4 @@
 interface:
-  display_name: "Persian Seo"
-  short_description: "Audit Persian SEO with current, sourced guidance"
-  default_prompt: "Audit this Persian site for organic search. Separate technical findings from Iranian search-demand assumptions."
+  display_name: "Persian SEO"
+  short_description: "Prioritize Persian SEO findings from page evidence"
+  default_prompt: "Use $persian-seo to audit these pages and separate observed issues from demand hypotheses."

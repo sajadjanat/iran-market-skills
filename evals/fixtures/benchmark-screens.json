@@ -1,0 +1,35 @@
+{
+  "synthetic": true,
+  "observed_at": "2026-10-03",
+  "viewport": "390x844",
+  "task": "choose a service offer",
+  "artifacts": [
+    {
+      "id": "screen-A",
+      "product": "fictional A",
+      "visible": [
+        "price 250000 without unit",
+        "CTA ثبت درخواست"
+      ],
+      "hidden": [
+        "checkout",
+        "login",
+        "fulfillment"
+      ]
+    },
+    {
+      "id": "screen-B",
+      "product": "fictional B",
+      "visible": [
+        "price ۲۵۰٬۰۰۰ تومان",
+        "CTA مشاهدهٔ گزینه‌ها",
+        "support link"
+      ],
+      "hidden": [
+        "checkout",
+        "support response",
+        "fulfillment"
+      ]
+    }
+  ]
+}

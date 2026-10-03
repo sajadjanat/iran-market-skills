@@ -1,0 +1,41 @@
+{
+  "synthetic": true,
+  "category": "repair-request service",
+  "geography": "one city",
+  "period": "hypothetical review",
+  "facts": [
+    {
+      "id": "P1",
+      "source": "fictional provider A price sheet",
+      "price": 2500000,
+      "currency": "IRR",
+      "period": "2025",
+      "shipping_included": "unknown"
+    },
+    {
+      "id": "P2",
+      "source": "fictional provider B price sheet",
+      "price": 300000,
+      "currency": "toman",
+      "period": "2026",
+      "shipping_included": "unknown"
+    },
+    {
+      "id": "I1",
+      "source": "three exploratory interviews supplied by owner",
+      "claim": "two participants report uncertainty about final price",
+      "sample": 3,
+      "limitation": "convenience sample; no purchase test"
+    }
+  ],
+  "conflict": [
+    {
+      "source": "owner note A",
+      "claim": "price is the primary objection"
+    },
+    {
+      "source": "owner note B",
+      "claim": "one participant cared more about arrival reliability"
+    }
+  ]
+}

@@ -1,20 +1,24 @@
 ---
 name: persian-rtl-ux
-description: Design, implement, or audit Persian-language web and mobile interfaces for right-to-left layout, bidirectional text, typography, numbers, dates, and locale behavior. Use for Persian UI reviews or localization work.
+description: Audit or implement Persian interfaces for RTL layout, mixed Persian/Latin text, locale formatting and input behavior. Use when building Persian UI, localizing an interface or fixing bidirectional and responsive UI defects.
+license: MIT
+compatibility: Runtime verification needs the target browser or app. Source-only and screenshot reviews must label untested behavior.
 ---
 
-# Persian Rtl Ux
+# Persian RTL UX
 
-Use this skill when a product has Persian-language UI or mixed Persian and Latin content. Treat language direction, locale formatting, and product choices as related but distinct decisions.
+Preserve content meaning, usable inputs and product requirements. Apply the [evidence policy](references/evidence-policy.md). Read the [RTL reference](references/rtl-localization.md) for platform guidance and [test cases](references/test-cases.md) when verifying mixed text, locale and interaction.
 
 ## Workflow
 
-1. Identify the platform, framework, supported languages, and whether the interface is Persian-only or multilingual. Check the existing locale and design-system conventions before proposing changes.
-2. Set semantic language and direction at the correct document or component boundary. Prefer logical layout properties and the platform's bidirectional-text behavior over manually reversing content.
-3. Review Persian characters, mixed-direction strings, punctuation, phone numbers, URLs, identifiers, currency, numeric input, date/time formatting, and copy/paste behavior. Preserve raw user input when normalizing a separate search or comparison value.
-4. Make calendar, digit, currency, and timezone decisions explicit product requirements. Use Persian locale data where it fits; keep codes and identifiers legible and copyable.
-5. Verify layouts at narrow and wide widths, keyboard use, screen-reader labels, and representative mixed-script examples. Use the platform's current official guidance when implementation details may have changed.
+1. **Identify the contract.** Establish audit versus implementation, platform/framework, locale variants and design conventions. Record calendar, timezone, digit and currency requirements; ask where ambiguity affects correctness. RTL alone does not choose these settings.
+2. **Fix semantic direction.** Set language/base direction at the correct boundary. Use logical layout properties and isolate embedded text when needed. Preserve source/DOM order and stored text; avoid reversing strings to imitate RTL. Mirror controls whose meaning depends on reading direction, preserving fixed-meaning content such as logos/media controls as appropriate.
+3. **Check text and data.** Exercise Persian/Latin names, parentheses, URLs, phone, email, prices and identifiers. Keep identifiers copyable, currency units explicit and numeric values independent of display digits. Normalize a separate search/comparison representation only when needed; preserve original names, passwords, identifiers and user-entered text.
+4. **Verify interaction.** Check target responsive widths, long content, focus/keyboard order, labels, error association and available assistive technology. Exercise editing, selection, validation and copy/paste with the reference corpus. For multilingual products check both directions. Record actual environment/results; screenshots cannot verify keyboard, clipboard or screen-reader behavior.
+5. **Report or patch.** Tie issues to components and reproducible cases. For implementation, make scoped changes fitting the codebase, rerun affected cases and distinguish confirmed fixes from pending choices. Preserve platform-specific behavior instead of applying web recipes to native UI.
 
-## Completion
+## Deliverable and completion
 
-Provide an actionable audit or patch with affected components, observed examples, and decisions requiring product input. Read [Persian RTL references](references/rtl-localization.md) for the standards and platform documentation, including each source's status.
+Return findings or a patch with locations, input cases, expected/observed results, severity and verification status. Include locale decisions and untested checks. Every in-scope issue must be fixed and checked or explicitly reported with evidence and a next action.
+
+For source-only review, report static findings and runtime checks still needed. With no implementation/runtime access, supply a concrete audit without claiming a tested fix. Machine-readable dates, amounts and identifiers must retain their meaning after display changes.
