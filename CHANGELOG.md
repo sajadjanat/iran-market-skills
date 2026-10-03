@@ -2,6 +2,9 @@
 
 ## [0.2.0] - Unreleased
 
+- Added a primary-source Iran/Persian-context review and practical guidance across all five skills: region-aware discovery, transaction benchmarks, numeric/state contracts, operational copy and truthful local/seasonal SEO.
+- Added fresh-session local-context behavioral scenarios and evaluation records; no real-customer or conversion claim.
+
 - Reworked all five workflows with explicit input scope, evidence, deliverables, completion criteria and unavailable-tool fallbacks.
 - Bundled canonical evidence policy and MIT license into every independently installable skill.
 - Added Persian-specific RTL test corpus, writing examples and task-based market/benchmark/SEO methods.

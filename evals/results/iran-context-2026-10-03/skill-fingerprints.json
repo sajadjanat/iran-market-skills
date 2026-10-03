@@ -1,0 +1,33 @@
+{
+  "algorithm": "sha256 of UTF-8 text with LF newlines",
+  "files": {
+    "skills/iran-market-discovery/agents/openai.yaml": "9b67f94ef0692c8185f6f7d3f540401339b3001b5c2a5d586e30c89381a56567",
+    "skills/iran-market-discovery/LICENSE": "33deba2970171ae552f8f17a0d829d7d22b541c229c787a59c2c1b9d4a05eeb4",
+    "skills/iran-market-discovery/references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "skills/iran-market-discovery/references/evidence-record.md": "6d135307538220a5f7a893edcc045420cddbb5af279a61dc7128daf4d30aed83",
+    "skills/iran-market-discovery/references/public-sources.md": "f43acd0d6c5466aaa437e414f3747178598d195ba8e6484ca3dacae9beb535f1",
+    "skills/iran-market-discovery/SKILL.md": "95b8f5ad0530373526444815eae5a886fb06b7255dbf0693dfb9ea80b7e572b8",
+    "skills/iran-product-benchmark/agents/openai.yaml": "8f2ec8d6a54583e58f3d78880605466c05bb63f8385afa6cc2393bab23ac04b8",
+    "skills/iran-product-benchmark/LICENSE": "33deba2970171ae552f8f17a0d829d7d22b541c229c787a59c2c1b9d4a05eeb4",
+    "skills/iran-product-benchmark/references/benchmark-method.md": "28ce46e21b866e4302c0491089ff403b64b709a0ea9e48a0aa2251ac0bb157d3",
+    "skills/iran-product-benchmark/references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "skills/iran-product-benchmark/SKILL.md": "2810bd61c075a10efcf7f27733ebb1634d6d2f11624aa529f25596e47c30e383",
+    "skills/persian-brand-copy/agents/openai.yaml": "c625f3ece2eacf0cb3ed22db93fa2b4b9baf4b46fa0f8c746e8fad19f2052d74",
+    "skills/persian-brand-copy/LICENSE": "33deba2970171ae552f8f17a0d829d7d22b541c229c787a59c2c1b9d4a05eeb4",
+    "skills/persian-brand-copy/references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "skills/persian-brand-copy/references/persian-writing.md": "2816b9eb91e6c6d874853ebb317d96420b8a803c36e02b82c7b8d5c585541f9b",
+    "skills/persian-brand-copy/SKILL.md": "e9f44cfacad62411ec692b4fbec4baffaebb9a0e725fb6f04d1c1f674ab20518",
+    "skills/persian-rtl-ux/agents/openai.yaml": "f6ae3825e550eb75786f6f6af5e16e5823b608549593926caa94478c5afb7fe3",
+    "skills/persian-rtl-ux/LICENSE": "33deba2970171ae552f8f17a0d829d7d22b541c229c787a59c2c1b9d4a05eeb4",
+    "skills/persian-rtl-ux/references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "skills/persian-rtl-ux/references/rtl-localization.md": "cf7e9b93963a4621b187c3f3201c81c950cf908bb3099340f92157394c686a0c",
+    "skills/persian-rtl-ux/references/test-cases.md": "4f1274a38c84b5ade69d744967511ee52b35ec536bc85989d8ecfc1b83381340",
+    "skills/persian-rtl-ux/SKILL.md": "59b11dae570adc01d6ec2d2370dd6982366b28e1a7ddddce7da82a386dd27758",
+    "skills/persian-seo/agents/openai.yaml": "c25dff6bf99a4e8178ba08ea909d00177925ce726fd717585422c27d9f8a3133",
+    "skills/persian-seo/LICENSE": "33deba2970171ae552f8f17a0d829d7d22b541c229c787a59c2c1b9d4a05eeb4",
+    "skills/persian-seo/references/audit-method.md": "4ad62d7c95a053442f89373488e470256220ddbbdd5f8967a78c09ef6b756e71",
+    "skills/persian-seo/references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "skills/persian-seo/references/seo-sources.md": "de0d821a9c3a30b02849e12cf9a3d101e09f776dc56b59be5f56a831ff635758",
+    "skills/persian-seo/SKILL.md": "bcb86ff31d933205c80950aab333fb0795d962dbc4ca340cf6b6a6cf11e2c798"
+  }
+}

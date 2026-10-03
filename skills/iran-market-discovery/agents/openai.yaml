@@ -1,4 +1,4 @@
 interface:
   display_name: "Iran Market Discovery"
   short_description: "Research Iranian product opportunities with evidence"
-  default_prompt: "Use $iran-market-discovery to evaluate this opportunity in Iran and recommend the next validation experiment."
+  default_prompt: "Use $iran-market-discovery to investigate this customer job in its actual Iranian service area, distinguish evidence from cultural assumptions and recommend the next validation experiment."

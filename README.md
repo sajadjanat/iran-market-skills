@@ -72,3 +72,9 @@ Offline checks validate packaging, metadata and links. [Behavioral scenarios](ev
 0.2.0 is a release candidate; publication status is recorded in [CHANGELOG.md](CHANGELOG.md). See [actual validation results](evals/results/review-2026-10-03.md) for package installation, behavioral scenarios and browser/hosted CI checks. The Codex plugin manifest packages the collection; it does not itself publish to a marketplace.
 
 See [contributing](CONTRIBUTING.md) and [release/maintenance checks](docs/releasing.md). Repository-authored material is MIT licensed; linked third-party sources retain their own rights.
+
+Persian language and the Iranian market are separate inputs. The [Iran-context review](research/iran-context-review-2026-10-03.md) informs local customer interviews, transaction-state copy, digit-entry contracts and truthful local/seasonal pages; these recommendations still need validation with the intended users.
+
+A [Persian real-user validation guide](docs/user-validation.fa.md) defines practical comprehension/task checks; no such customer study has been run in this repository.
+
+The [five fresh local-context evaluations](evals/results/iran-context-2026-10-03/review.md) passed their 22 criteria. Their fictional inputs and limits are recorded; this is not a customer study.

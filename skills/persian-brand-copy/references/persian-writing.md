@@ -36,3 +36,22 @@ Fictional brief: a repair-request form; visitors submit a request, then receive 
 - CTA: «ثبت درخواست»
 
 The rewrite changes voice while preserving the actual action. These are original demonstration lines, not tested conversion claims.
+
+## Audience fit and operational microcopy
+
+Record Iran/service region separately from language. Honor supplied Dari, regional or diaspora wording and operating terms. Use «تو/شما», possessives and conversational endings consistently with the requested relationship/register. Formality, humor, religious language and foreign loanwords need audience/brand evidence; neither warmth nor colloquial language is automatically better for Iran.
+
+A comprehension test is more useful than asking whether copy is attractive: ask intended readers what happens after the CTA, what the final price includes, which areas are served and what they would do after the shown error. Capture verbatim interpretations and disagreements without claiming prevalence. Preserve the requested edit scope.
+
+Write payment/OTP/order messages from the supplied state and allowed action. Keep canceled, failed, pending verification and confirmed distinct. Don't attribute a pending payment to the bank or promise a fixed reversal/refund time without an applicable verified policy. «بازگشت وجه», wallet credit and refund-request acceptance are different outcomes. Retry/resend guidance must match the product's duplicate-payment protection or actual cooldown.
+
+### Original synthetic state examples
+
+Fictional formal-voice checkout with a real status-view action; backend has not confirmed payment:
+
+- Pending: «وضعیت پرداخت هنوز تأیید نشده است. وضعیت سفارش را بررسی کنید.» CTA: «بررسی وضعیت سفارش».
+- Confirmed, only when provided: «پرداخت تأیید شد. شمارهٔ سفارش: AB-0123».
+- Service area, only when provided: «این نشانی خارج از محدودهٔ خدمات ماست. نشانی دیگری انتخاب کنید.»
+- OTP, only when provided: «کد واردشده درست نیست. کد را بررسی کنید.» Do not add a resend timer or expiry cause absent in the brief.
+
+For a Nowruz or other seasonal campaign, check actual offer, audience relevance, year/calendar, timezone, stock, fulfillment cutoffs and support availability. Draft greetings as optional creative choices; holiday sentiment does not prove buying behavior. These examples are authored demonstrations, not validated audience preferences.

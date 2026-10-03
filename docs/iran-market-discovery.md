@@ -31,3 +31,7 @@ The result has a bounded decision, dated/attributed material claims, visible gap
 ## Common limits
 
 Blocked sources are marked, not substituted with invented numbers. Exploratory interviews do not establish population prevalence. Rial/toman and report periods remain explicit. Without browsing the result is a plan or artifact analysis.
+
+## Local customer research
+
+Record the actual service area, recent customer episode, decision maker/payer, language, channel and relevant access/payment constraints. The [source guide](../skills/iran-market-discovery/references/public-sources.md) now includes neutral Persian interview prompts, recruiting limits and seasonal verification. Ask what people actually did before testing what they might buy.

@@ -17,3 +17,5 @@ Structural validation checks case coverage and fixture existence. It does not ex
 For an optional with-skill/without-skill comparison, use the same model, user request, tools and artifacts in fresh sessions. Compare task completion, factual support, handling of missing evidence and practical usability. Do not claim performance or conversion improvements from a single example.
 
 The [packaging validator](../scripts/validate_repo.py) and [regression checks](../tests/test_validation.py) provide offline checks separate from this protocol.
+
+The [2026-10-03 local-context run](results/iran-context-2026-10-03/review.md) uses five fresh sessions, one per new case, with isolated outputs and separate package fingerprints. It supplements the earlier grouped pilot; it does not replace its historical record.

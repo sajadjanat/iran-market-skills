@@ -1,4 +1,4 @@
 interface:
   display_name: "Persian Brand Copy"
   short_description: "Write Persian copy that fits the audience and offer"
-  default_prompt: "Use $persian-brand-copy to draft this copy with the supplied voice and preserve verified offer facts."
+  default_prompt: "Use $persian-brand-copy to draft natural Persian for the supplied audience and voice, preserving offer facts and actual product states."

@@ -31,3 +31,13 @@ Set baseline, comparable post-change period, page/query set and confounders. Pro
 ### Synthetic example
 
 Supplied HTML contains noindex and a self-canonical on a intended public product page. Static conclusion: conflicting publishing intent needs review; canonical does not cancel noindex. Unknown: live response headers, robots access and engine index state. Next step: confirm owner intent, inspect runtime directives, then verify the authorized change.
+
+## Local services, brands and seasonal intent
+
+Record country/service area separately from Persian language. Build intent hypotheses from actual query/support data: service + city/area, formal and colloquial phrasing, Persian/Latin brand names or transliterations. Preserve spelling in source evidence; combine only semantically equivalent variants. No data means no volume estimate or claim of preferred spelling.
+
+For a city landing page require real service availability and decision-useful local facts such as covered areas, applicable offer/fees, operational contact and booking conditions. A headquarters address is not proof of branches or coverage in every city. Prefer one accurate coverage page over fabricated addresses or city-name swaps; regional pages need distinct utility. This applies [Google doorway and scaled-content policies](https://developers.google.com/search/docs/essentials/spam-policies), read 2026-10-03, rather than a Persian-specific ranking formula.
+
+Check current regional/product eligibility before recommending local-business/search features; Persian content alone does not establish availability of a platform feature. Mark this check unresolved without current official feature guidance.
+
+For Nowruz, school/calendar or weather-linked queries, distinguish date/season hypotheses from actual search evidence. Validate calendar/year, target geography, dated offer and service cutoffs; compare relevant seasonal windows rather than claiming holiday uplift from one spike. Updating a year in a title must accompany actually updated content. For prices, availability and delivery statements, record who maintains the information and when it was checked. Do not invent deadlines, discounts, review counts or city operations for SEO.
