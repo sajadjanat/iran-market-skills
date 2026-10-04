@@ -19,3 +19,8 @@ For an optional with-skill/without-skill comparison, use the same model, user re
 The [packaging validator](../scripts/validate_repo.py) and [regression checks](../tests/test_validation.py) provide offline checks separate from this protocol.
 
 The [2026-10-03 local-context run](results/iran-context-2026-10-03/review.md) uses five fresh sessions, one per new case, with isolated outputs and separate package fingerprints. It supplements the earlier grouped pilot; it does not replace its historical record.
+
+The [2026-10-04 operating-contract run](results/iran-contracts-2026-10-04/review.md)
+records the five newer contract cases with exact outputs, criterion-level
+evidence and package fingerprints. Claude account validation remains
+[unverified after a sign-in redirect](results/claude-account-check-2026-10-04.md).

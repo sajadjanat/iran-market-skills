@@ -5,10 +5,14 @@
 Requires Git and Node satisfying the current [CLI package](https://github.com/vercel-labs/skills). CLI discovery of the five packages has been checked; it is separate from executing every skill on every agent.
 
 ```bash
-npx skills@latest add sajadjanat/iran-market-skills
+npx skills@latest add sajadjanat/iran-market-skills --skill '*'
 npx skills@latest add sajadjanat/iran-market-skills --skill persian-rtl-ux --agent codex
 npx skills@latest add sajadjanat/iran-market-skills --list
 ```
+
+The first command installs all five skills together; choose your agent in the
+interactive installer. Add `--agent claude-code`, `--agent codex` or
+`--agent cursor` to choose the tool directly.
 
 On PowerShell, use `npx.cmd` if execution policy blocks the npm PowerShell wrapper. Copy mode can be useful when symlinks are unavailable.
 
@@ -28,7 +32,11 @@ See [Claude Code's official skill documentation](https://code.claude.com/docs/en
 
 ## Claude web/desktop (claude.ai)
 
-Download one skill ZIP from the [Sepehra page](https://sepehra.ir/skills/#install).
+Download one skill ZIP from the [Sepehra page](https://sepehra.ir/skills/#install),
+or [download the complete collection](https://sepehra.ir/skills/downloads/iran-market-skills-bundle.zip).
+The collection contains the same five per-skill ZIPs, their SHA256 manifest
+and a Persian installation guide. Extract the outer collection ZIP first;
+upload each inner ZIP separately. Do not upload the outer bundle as a skill.
 In Claude, enable code execution/file creation if required, then open
 **Customize → Skills → + Create skill → Upload a skill**. Upload the ZIP and
 turn the skill on. Availability depends on account and organization settings;
@@ -45,6 +53,20 @@ python scripts/package_skills.py
 Each `dist/<name>.zip` contains one top-level skill folder, its unchanged
 instructions, references and license. No API key, paid integration or model
 connection is included. Desktop/web upload was not performed in a Claude account.
+
+### Account validation still needed
+
+The [2026-10-04 attempt](../evals/results/claude-account-check-2026-10-04.md)
+reached the sign-in page. Packaging success does not establish account-upload
+or Claude-model success. To complete this check in an authenticated account:
+
+1. Upload and enable one inner skill ZIP; record the skill name and any error.
+2. In a fresh conversation, supply a synthetic task and its input, and ask for
+   that skill. Preserve the actual output and available model/tool information.
+3. Review the matching criteria in `evals/cases.json` separately from the model
+   request. Mark upload, invocation and behavior independently.
+4. Repeat for the remaining skills. Record failures and untested steps without
+   treating a visible toggle as proof of output quality.
 
 ## Other agents and a manual fallback
 

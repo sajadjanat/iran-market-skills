@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-04",
+  "base_revision": "120b3b33086681e1863a6d2c6f57c0bf489103f5",
+  "agent": "Codex collaboration agents, fresh no-history sessions",
+  "exact_model_version": "unavailable from evaluator interface",
+  "tools": "local file reading/writing only; browsing and product runtime unavailable",
+  "fixture_sha256": "6e0fe28e8c58e98b6ffea97eee8f2ece2839ce08e78a70bab0354bb2fa192f57",
+  "evaluation": "parent reviewed actual outputs against criteria; no baseline, not blind reviewer",
+  "cases": [
+    {
+      "case": "rtl-iran-contracts",
+      "skill": "persian-rtl-ux",
+      "output": "rtl-iran-contracts.md",
+      "output_sha256": "f1c3cc27fe0e57f15515ac676033e8687c6b301326cfd35889ada00fa403d87b",
+      "criteria": [
+        {
+          "criterion": "Converts 2500000 rial to 250000 toman once and total to 280000 toman",
+          "status": "pass",
+          "evidence": "Money row states 250000 toman and 280000 total, with conversion only once at the contract boundary."
+        },
+        {
+          "criterion": "Flags fractional/rounding decision for 2500001 rial",
+          "status": "pass",
+          "evidence": "Fractional row states 250000.1 toman and requires an explicit rounding/display policy."
+        },
+        {
+          "criterion": "Keeps canonical phone/OTP strings and leading zeroes",
+          "status": "pass",
+          "evidence": "Phone and OTP rows retain canonical string forms and 0123, including leading zero."
+        },
+        {
+          "criterion": "Distinguishes date-only from instant and names selected calendar/zone",
+          "status": "pass",
+          "evidence": "Date rows separate 1405-07-15 date-only from a real instant; selected calendar is Persian and zone Asia/Tehran."
+        },
+        {
+          "criterion": "Marks SMS/backend/runtime unverified and preserves unresolved payment",
+          "status": "pass",
+          "evidence": "Opening and payment rows disclose absent code/browser/backend and unobserved SMS; pending remains unresolved."
+        }
+      ]
+    },
+    {
+      "case": "copy-iran-contracts",
+      "skill": "persian-brand-copy",
+      "output": "copy-iran-contracts.md",
+      "output_sha256": "161f7372c8c1eb00788721006c25a0e611620388656ae3fa4d7c731106133982",
+      "criteria": [
+        {
+          "criterion": "States total 280000 toman with supplied components",
+          "status": "pass",
+          "evidence": "Final amount block lists 250000 goods, 30000 shipping and 280000 total in toman."
+        },
+        {
+          "criterion": "Applies supplied 72-hour policy only to verified failure with source-account return and support route",
+          "status": "pass",
+          "evidence": "Verified-failure block conditionally returns deducted funds to the same source account within fixture 72-hour policy; reference, amount and time go to support."
+        },
+        {
+          "criterion": "Adds no refund/debit/retry claim to pending state",
+          "status": "pass",
+          "evidence": "Unresolved-payment block makes no success/failure/refund/retry claim; debit remains unknown."
+        },
+        {
+          "criterion": "Adds no invented OTP expiry/resend or unsupported service promise",
+          "status": "pass",
+          "evidence": "OTP has no invented expiry or resend interval; out-of-area text limits service to Shiraz."
+        }
+      ]
+    },
+    {
+      "case": "benchmark-iran-contracts",
+      "skill": "iran-product-benchmark",
+      "output": "benchmark-iran-contracts.md",
+      "output_sha256": "c498093b94b8e28f630d705d13ddf000e051181b6a41f1622ab982d43b08e5dd",
+      "criteria": [
+        {
+          "criterion": "Normalizes B to 280000 toman and preserves original units",
+          "status": "pass",
+          "evidence": "Comparison table preserves 2800000 rial and normalizes B to 280000 toman."
+        },
+        {
+          "criterion": "Leaves final A unknown and declares no cheapest overall winner",
+          "status": "pass",
+          "evidence": "Conclusion leaves A total unknown, with only conditional shipping comparisons, not a cheapest overall winner."
+        },
+        {
+          "criterion": "Reports artifact/contract comparison rather than observed live flows",
+          "status": "pass",
+          "evidence": "Opening and table label synthetic contract comparison and unobserved login/payment/support/delivery."
+        },
+        {
+          "criterion": "Names comparable city/payment/support evidence to gather",
+          "status": "pass",
+          "evidence": "Next checks require same purchase conditions/address in Shiraz, shipping, support and confirmed payment evidence."
+        }
+      ]
+    },
+    {
+      "case": "market-iran-contracts",
+      "skill": "iran-market-discovery",
+      "output": "market-iran-contracts.md",
+      "output_sha256": "13aade0c938593c40371f4757337480b4e2e84e6258f43e68fcfde8a3b93bee7",
+      "criteria": [
+        {
+          "criterion": "Labels all proposed barriers hypotheses",
+          "status": "pass",
+          "evidence": "Hypothesis table labels all four barriers as unproven and provides opposing observations."
+        },
+        {
+          "criterion": "Uses neutral last-experience questions and real service-area recruitment",
+          "status": "pass",
+          "evidence": "Recruitment is recent repair experience in Shiraz; free last-experience questions precede targeted prompts."
+        },
+        {
+          "criterion": "Includes total-cost unit, SMS/recovery and alternative-provider questions only when relevant",
+          "status": "pass",
+          "evidence": "Interview plan asks unit/final cost, SMS failure/recovery and alternatives only for relevant experience."
+        },
+        {
+          "criterion": "Makes no national demand/trust claim or inferred famous-brand preference",
+          "status": "pass",
+          "evidence": "No national trust/demand inference; brand mentions are explicitly not evidence of Shiraz coverage or preference."
+        }
+      ]
+    },
+    {
+      "case": "seo-iran-contracts",
+      "skill": "persian-seo",
+      "output": "seo-iran-contracts.md",
+      "output_sha256": "63650fe9d900f0cd89a6786136ef3653d10542d64414484526e716d3ba0e9531",
+      "criteria": [
+        {
+          "criterion": "Corrects conventional priceCurrency IRR amount to 2500000 and does not invent IRT ISO code",
+          "status": "pass",
+          "evidence": "First priority corrects price=2500000 with IRR, preserving 250000 toman display and rejecting invented IRT ISO code."
+        },
+        {
+          "criterion": "Separates localized date display from required machine format",
+          "status": "pass",
+          "evidence": "Date row keeps Persian display and requires Gregorian machine format; no fabricated instant for a date-only value."
+        },
+        {
+          "criterion": "Rejects fabricated service areas and duplicate spelling/location pages",
+          "status": "pass",
+          "evidence": "Coverage row rejects unserved cities; query row rejects separate pages for near-identical spelling variants."
+        },
+        {
+          "criterion": "Keeps current policy/indexing/SMS/traffic unverified",
+          "status": "pass",
+          "evidence": "Opening and verification sections keep current policy, live indexing, traffic and SMS unverified."
+        }
+      ]
+    }
+  ]
+}

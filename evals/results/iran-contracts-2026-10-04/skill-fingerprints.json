@@ -1,0 +1,40 @@
+{
+  "persian-rtl-ux": {
+    "agents/openai.yaml": "9d7c8dda27c13f0a742212fd2dc3805813ab7f55b053ef4c70c2128c6f3ba5ae",
+    "LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+    "references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "references/rtl-localization.md": "11cfdbad1acc46bb4fa3b80dafe0480088ac9c50694c8defde6226c8dde2f791",
+    "references/test-cases.md": "0edacffb258a9a251fb05904a2f538c5c7f327badb7784239b781ab32cbd5821",
+    "SKILL.md": "f4755c2046836619f5ca09e6709ea0916a1d89db8e13d4b5cbae8a5b43e43657"
+  },
+  "persian-brand-copy": {
+    "agents/openai.yaml": "fb3eacb1d4980381e851727e9bbb053d01f1b7112c6d8e4a91f0ee0a22614595",
+    "LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+    "references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "references/persian-writing.md": "cb22c9394e4fec54d3809294e14bb5fa62eb56262d1b2c21e8c0a0f2955245b8",
+    "SKILL.md": "ac909fe4648e07a36a99f0a49bb96fa95f210cc792a5d68412deaef14c2da73a"
+  },
+  "iran-product-benchmark": {
+    "agents/openai.yaml": "30fba69f828d4f596ce9f2b0f53d758218413dc0d5f63d25f1165012d69ac91c",
+    "LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+    "references/benchmark-method.md": "328c45666821489f215578f3bf06044eb47e4d4c4dea0ad1ce992c8964c526bf",
+    "references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "SKILL.md": "dec51f7e5522b761183d70204cb59446b30543559f3de3ad49d15ebdc3131d39"
+  },
+  "iran-market-discovery": {
+    "agents/openai.yaml": "3c8f3151a9776ea2b36663633a568a1968dd1dda598f114b4aa2fee1e40f6144",
+    "LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+    "references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "references/evidence-record.md": "6d135307538220a5f7a893edcc045420cddbb5af279a61dc7128daf4d30aed83",
+    "references/public-sources.md": "41533fd00bfe68c03008fdcf65ac4704c468ac03015570158db3a959d1fcf416",
+    "SKILL.md": "df4398ebe7022efc83c588355563bdf544598ebf33b9c3ccc94ebca6fcb57c5a"
+  },
+  "persian-seo": {
+    "agents/openai.yaml": "ffaf008aa01fd49a19da70d23ace3e99cefe7b899efab517e6b14a08f78764bd",
+    "LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+    "references/audit-method.md": "4b242bacf50b242d1e61715ddd20d6223a759040fe96f743bf5bc6e3b9fbcd62",
+    "references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "references/seo-sources.md": "de0d821a9c3a30b02849e12cf9a3d101e09f776dc56b59be5f56a831ff635758",
+    "SKILL.md": "bbda8b864c4001075a6c62c24c1200b2329f4f58ed9b714896139043020e2177"
+  }
+}

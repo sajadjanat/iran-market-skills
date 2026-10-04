@@ -24,7 +24,27 @@
 npx skills@latest add sajadjanat/iran-market-skills
 ```
 
-در نصب، اسکیل‌ها و ایجنت را انتخاب کن. مشاهدهٔ فهرست و نصب یک اسکیل برای Codex:
+### نصب بستهٔ کامل پنج اسکیل
+
+با یک دستور هر پنج اسکیل را نصب کن و ابزار خودت را از فهرست انتخاب کن:
+
+```bash
+npx skills@latest add sajadjanat/iran-market-skills --skill '*'
+```
+
+برای انتخاب مستقیم ابزار، `--agent claude-code`، `--agent codex` یا
+`--agent cursor` را به دستور اضافه کن. در صورت نیاز، گفت‌وگو یا تسک تازه باز کن.
+
+**Claude وب و دسکتاپ:** [بستهٔ کامل را دانلود کن](https://sepehra.ir/skills/downloads/iran-market-skills-bundle.zip).
+فایل بسته را باز کن؛ پنج ZIP داخل آن را یکی‌یکی در Customize → Skills بارگذاری
+و فعال کن. خود فایل بسته برای بارگذاری مستقیم یک اسکیل نیست.
+[راهنمای نصب](https://sepehra.ir/skills/#install) و
+[مراحل بارگذاری](docs/installation.md#claude-webdesktop-claudeai) را ببین.
+بارگذاری در حساب Claude هنوز مستقل آزموده نشده است.
+
+### نصب تکی
+
+مشاهدهٔ فهرست و نصب یک اسکیل برای Codex:
 
 ```bash
 npx skills@latest add sajadjanat/iran-market-skills --list
@@ -80,3 +100,8 @@ python -m unittest discover -s tests -v
 برای آزمون با مخاطب واقعی، [راهنمای سنجش کاربرد](docs/user-validation.fa.md) کارها و شواهد قابل ثبت را مشخص می‌کند؛ چنین تحقیق مشتری‌ای هنوز در این ریپو انجام نشده است.
 
 [پنج ارزیابی مستقلِ کاربرد محلی](evals/results/iran-context-2026-10-03/review.md) هر ۲۲ معیار را گذراندند؛ ورودی‌ها ساختگی‌اند و این نتیجه تحقیق با مشتری واقعی نیست.
+
+[ارزیابی قراردادهای ایرانی در ۴ اکتبر ۲۰۲۶](evals/results/iran-contracts-2026-10-04/review.md)
+پنج خروجی واقعی در نشست‌های تازه و ۲۱ معیار گذرانده‌شده با ورودی ساختگی را ثبت می‌کند.
+[آزمون حساب Claude](evals/results/claude-account-check-2026-10-04.md)
+به صفحهٔ ورود رسید؛ بارگذاری و اجرای Claude هنوز تأیید نشده است.

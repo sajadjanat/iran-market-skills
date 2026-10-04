@@ -24,7 +24,27 @@ With Node.js and Git available, use the [Skills CLI](https://github.com/vercel-l
 npx skills@latest add sajadjanat/iran-market-skills
 ```
 
-Choose the skills and agent during installation. To inspect the collection or target one skill:
+### Install the complete collection
+
+Install all five skills in one command, then choose your agent:
+
+```bash
+npx skills@latest add sajadjanat/iran-market-skills --skill '*'
+```
+
+For a specific tool, append `--agent claude-code`, `--agent codex` or
+`--agent cursor`. Start a fresh conversation/task after installation if needed.
+
+**Claude web/desktop:** [download the complete collection ZIP](https://sepehra.ir/skills/downloads/iran-market-skills-bundle.zip).
+Extract it, then upload each of the five inner ZIPs through Customize → Skills.
+The collection ZIP is a download bundle, not a single Claude skill upload.
+See [the guided installer](https://sepehra.ir/skills/#install) and
+[upload instructions](docs/installation.md#claude-webdesktop-claudeai).
+Account upload remains independently untested.
+
+### Install an individual skill
+
+To inspect the collection or target one skill:
 
 ```bash
 npx skills@latest add sajadjanat/iran-market-skills --list
@@ -84,3 +104,8 @@ Persian language and the Iranian market are separate inputs. The [Iran-context r
 A [Persian real-user validation guide](docs/user-validation.fa.md) defines practical comprehension/task checks; no such customer study has been run in this repository.
 
 The [five fresh local-context evaluations](evals/results/iran-context-2026-10-03/review.md) passed their 22 criteria. Their fictional inputs and limits are recorded; this is not a customer study.
+
+The [2026-10-04 contract evaluation](evals/results/iran-contracts-2026-10-04/review.md)
+records five fresh-session outputs and 21 passing criteria on synthetic inputs.
+[Claude account validation](evals/results/claude-account-check-2026-10-04.md)
+remains unverified after the available browser reached sign-in.
