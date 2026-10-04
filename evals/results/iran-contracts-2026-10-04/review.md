@@ -12,10 +12,11 @@ They could read/write local files; browsing, a product browser and backend
 execution were unavailable. Exact runtime model/version was not exposed.
 This is not a Claude run or an every-agent compatibility result.
 
-The parent preserved exact outputs and reviewed them against all criteria in
+The parent preserved output text (published line endings normalized to LF) and reviewed it against all criteria in
 `evals/cases.json`. This reviewer knew the criteria and was not blinded.
 [Machine-readable results](results.json) give criterion-level evidence and
-output hashes. All 21 criteria passed in these five fictional cases:
+published and original captured output hashes. Skill fingerprints and the
+fixture hash refer to the actual evaluated working-copy bytes. All 21 criteria passed in these five fictional cases:
 
 | Case / actual output | Result | Evidence |
 |---|---|---|

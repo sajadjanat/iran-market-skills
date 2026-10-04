@@ -11,7 +11,7 @@
       "case": "rtl-iran-contracts",
       "skill": "persian-rtl-ux",
       "output": "rtl-iran-contracts.md",
-      "output_sha256": "f1c3cc27fe0e57f15515ac676033e8687c6b301326cfd35889ada00fa403d87b",
+      "output_sha256": "cda53b09102a407018cd0fb779d5831aa483aa0dd1791bab650a6183d8c32f43",
       "criteria": [
         {
           "criterion": "Converts 2500000 rial to 250000 toman once and total to 280000 toman",
@@ -38,13 +38,14 @@
           "status": "pass",
           "evidence": "Opening and payment rows disclose absent code/browser/backend and unobserved SMS; pending remains unresolved."
         }
-      ]
+      ],
+      "captured_output_sha256": "f1c3cc27fe0e57f15515ac676033e8687c6b301326cfd35889ada00fa403d87b"
     },
     {
       "case": "copy-iran-contracts",
       "skill": "persian-brand-copy",
       "output": "copy-iran-contracts.md",
-      "output_sha256": "161f7372c8c1eb00788721006c25a0e611620388656ae3fa4d7c731106133982",
+      "output_sha256": "b80aca52496768e48e3abf2d231e00c3292f665201e236a593d51570b5b4b774",
       "criteria": [
         {
           "criterion": "States total 280000 toman with supplied components",
@@ -66,13 +67,14 @@
           "status": "pass",
           "evidence": "OTP has no invented expiry or resend interval; out-of-area text limits service to Shiraz."
         }
-      ]
+      ],
+      "captured_output_sha256": "161f7372c8c1eb00788721006c25a0e611620388656ae3fa4d7c731106133982"
     },
     {
       "case": "benchmark-iran-contracts",
       "skill": "iran-product-benchmark",
       "output": "benchmark-iran-contracts.md",
-      "output_sha256": "c498093b94b8e28f630d705d13ddf000e051181b6a41f1622ab982d43b08e5dd",
+      "output_sha256": "722f7f39ac49d08b7d0e310f6c9c06d675a20a88109a5a85d3b5af8b68c2f190",
       "criteria": [
         {
           "criterion": "Normalizes B to 280000 toman and preserves original units",
@@ -94,7 +96,8 @@
           "status": "pass",
           "evidence": "Next checks require same purchase conditions/address in Shiraz, shipping, support and confirmed payment evidence."
         }
-      ]
+      ],
+      "captured_output_sha256": "c498093b94b8e28f630d705d13ddf000e051181b6a41f1622ab982d43b08e5dd"
     },
     {
       "case": "market-iran-contracts",
@@ -122,13 +125,14 @@
           "status": "pass",
           "evidence": "No national trust/demand inference; brand mentions are explicitly not evidence of Shiraz coverage or preference."
         }
-      ]
+      ],
+      "captured_output_sha256": "13aade0c938593c40371f4757337480b4e2e84e6258f43e68fcfde8a3b93bee7"
     },
     {
       "case": "seo-iran-contracts",
       "skill": "persian-seo",
       "output": "seo-iran-contracts.md",
-      "output_sha256": "63650fe9d900f0cd89a6786136ef3653d10542d64414484526e716d3ba0e9531",
+      "output_sha256": "19ca48902a67994a4dc7f726a3177f42971a20da7de1735aa779d6d3db921f39",
       "criteria": [
         {
           "criterion": "Corrects conventional priceCurrency IRR amount to 2500000 and does not invent IRT ISO code",
@@ -150,7 +154,9 @@
           "status": "pass",
           "evidence": "Opening and verification sections keep current policy, live indexing, traffic and SMS unverified."
         }
-      ]
+      ],
+      "captured_output_sha256": "63650fe9d900f0cd89a6786136ef3653d10542d64414484526e716d3ba0e9531"
     }
-  ]
+  ],
+  "output_encoding": "UTF-8; published output line endings normalized to LF; captured hashes retain original evaluator bytes"
 }
