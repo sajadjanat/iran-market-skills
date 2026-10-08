@@ -11,6 +11,8 @@ Tie recommendations to actual URLs and user value. Apply the [evidence policy](r
 
 For Iranian projects, read the **Iranian commerce and local-page checks** section in [the task reference](references/audit-method.md) when money, payments, phone/SMS, fulfillment or local dates affect the request. Apply relevant checks only; keep other Persian regions and the user’s scope intact.
 
+For choosing or reviewing blog content, read [editorial decisions](references/editorial-decisions.md). Use available project/connector evidence first and separate writing quality, search demand and measured outcomes.
+
 ## Workflow
 
 1. **Bound the audit.** Establish page set, audience, geography, engine and goal. Note access to live/rendered pages, robots responses and owner-supplied performance/indexing data. Finish with scope and access limits.

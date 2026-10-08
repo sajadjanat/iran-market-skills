@@ -1,0 +1,47 @@
+{
+  "copy-practical-article": {
+    "editorial-brief.json": "48edff6ba957645cc57e117390a86ed29191a0c3261daf8910fe5ef57a9e5340",
+    "persian-brand-copy\\agents\\openai.yaml": "48148dfa91204839e1e359f39b206a43e84ff42e90499758267f9947a77e4399",
+    "persian-brand-copy\\LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+    "persian-brand-copy\\references\\articles.md": "6bff1d03b0fa4cde77f63201f4efca45d97c990e8cae2541205d152ca0af8ce2",
+    "persian-brand-copy\\references\\evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "persian-brand-copy\\references\\persian-writing.md": "cb22c9394e4fec54d3809294e14bb5fa62eb56262d1b2c21e8c0a0f2955245b8",
+    "persian-brand-copy\\SKILL.md": "206e30d08be73c9d5866fc3d8fb119421eb4731f3c36b2ae9bdfbd568705deb8"
+  },
+  "seo-editorial-evidence": {
+    "editorial-brief.json": "48edff6ba957645cc57e117390a86ed29191a0c3261daf8910fe5ef57a9e5340",
+    "persian-seo\\agents\\openai.yaml": "2fac68f64c381cc3a355ca79e9a861a19b7705f2790e89fe634b5e241ec025c8",
+    "persian-seo\\LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+    "persian-seo\\references\\audit-method.md": "4b242bacf50b242d1e61715ddd20d6223a759040fe96f743bf5bc6e3b9fbcd62",
+    "persian-seo\\references\\editorial-decisions.md": "2e9f36757fb6f31ca8600cc9913f5074dd2e75b7ff7f9da4215ebe0c2659664a",
+    "persian-seo\\references\\evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "persian-seo\\references\\seo-sources.md": "de0d821a9c3a30b02849e12cf9a3d101e09f776dc56b59be5f56a831ff635758",
+    "persian-seo\\SKILL.md": "0cadbe5e7dfebdf43fbf76d44a9db4b34e4afc72b0c184bb68c56cc11cdb2f90"
+  },
+  "market-situated-culture": {
+    "editorial-brief.json": "48edff6ba957645cc57e117390a86ed29191a0c3261daf8910fe5ef57a9e5340",
+    "iran-market-discovery\\agents\\openai.yaml": "30d48b2e689325de92f1efa1ca7adf59f8f662d6c4d091eaaed4f85641f092b2",
+    "iran-market-discovery\\LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+    "iran-market-discovery\\references\\evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "iran-market-discovery\\references\\evidence-record.md": "6d135307538220a5f7a893edcc045420cddbb5af279a61dc7128daf4d30aed83",
+    "iran-market-discovery\\references\\public-sources.md": "72814280f6ce7830edb80ce7222020666aead286625d132e5a9c69f92252a6db",
+    "iran-market-discovery\\SKILL.md": "783fa20f5f2b174c579021e5e2292952737cb94e13802baf25c5446726089955"
+  },
+  "benchmark-editorial-fit": {
+    "editorial-brief.json": "48edff6ba957645cc57e117390a86ed29191a0c3261daf8910fe5ef57a9e5340",
+    "iran-product-benchmark\\agents\\openai.yaml": "4077770f186a26b245a2fb858fc188ff787cb490556e0a876dd9d3f2feb787c3",
+    "iran-product-benchmark\\LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+    "iran-product-benchmark\\references\\benchmark-method.md": "6ab4a0a39f5d30e9464c378475aa707e1b9dfd7a21db7f95f7b77115aa1317c4",
+    "iran-product-benchmark\\references\\evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "iran-product-benchmark\\SKILL.md": "8807868d8218f8598c0f22e8a46f37a9b1bcd73f127dac69ee6b3dc384cc944d"
+  },
+  "rtl-editorial-cards": {
+    "editorial-brief.json": "48edff6ba957645cc57e117390a86ed29191a0c3261daf8910fe5ef57a9e5340",
+    "persian-rtl-ux\\agents\\openai.yaml": "d52c82eb6499cb31b97ebf0f0203893a2fbeab0d8fc6d2f1e438ee7d1d7b3977",
+    "persian-rtl-ux\\LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+    "persian-rtl-ux\\references\\evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+    "persian-rtl-ux\\references\\rtl-localization.md": "5b04afb89ef57ab8f6a9ff40db9374339753bbb2c9af784bc733ee8edb97ad51",
+    "persian-rtl-ux\\references\\test-cases.md": "0edacffb258a9a251fb05904a2f538c5c7f327badb7784239b781ab32cbd5821",
+    "persian-rtl-ux\\SKILL.md": "5a70f88b32e6c02e25a891800b7f3427574eebf7c2e80afbe8699bd14560ce30"
+  }
+}

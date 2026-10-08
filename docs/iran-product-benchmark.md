@@ -36,3 +36,7 @@ Match city/order eligibility and compare full cost, gateway-return states, deliv
 ## Iranian operating details
 
 The [Iranian task comparison checks](../skills/iran-product-benchmark/references/benchmark-method.md) covers the task-specific Iran checks. See the [Persian coverage map](iran-context.fa.md) for example inputs and applicable skills. Provider policies and audience assumptions remain explicit; the new reference examples are authored demonstrations, not independent model evaluation results.
+
+## Editorial comparison
+
+Use the [benchmark method](../skills/iran-product-benchmark/references/benchmark-method.md) to compare Iranian articles/tutorials answering the same reader question. Examine their concrete explanation and reader outcome, record source limits, and build original examples. Search result order is not popularity evidence; a generated tutorial cover is not an observed app screen.

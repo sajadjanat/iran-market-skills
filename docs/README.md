@@ -15,3 +15,4 @@ Examples demonstrate output shape, not measured model performance or market trut
 For a consented real-user pilot, use the [Persian validation guide](user-validation.fa.md).
 
 - [Iranian operating details — Persian coverage map](iran-context.fa.md)
+- [Persian editorial lessons and scope](editorial-lessons.fa.md)

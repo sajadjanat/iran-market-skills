@@ -11,6 +11,8 @@ Compare observable behavior for one task. Apply the [evidence policy](references
 
 For Iranian projects, read the **Iranian task comparison checks** section in [the task reference](references/benchmark-method.md) when money, payments, phone/SMS, fulfillment or local dates affect the request. Apply relevant checks only; keep other Persian regions and the user’s scope intact.
 
+For articles or content interfaces, read the editorial section of [the task reference](references/benchmark-method.md) when the request concerns local cultural fit, article comparison or reading/card usability. Apply only the relevant checks.
+
 ## Workflow
 
 1. **Bound the comparison.** Define task, audience, device, locale, products and why each belongs. Keep conditions comparable; identify differences preventing a fair comparison. Finish with task and sampling rationale.

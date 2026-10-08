@@ -1,0 +1,63 @@
+{
+  "status": "Entire fixture is synthetic, authored for offline evaluation; not customer or market evidence.",
+  "brief": {
+    "audience": "چهار دوست بزرگسال با نیم ساعت وقت در خانه؛ بودجه و وسایل بیشتر مشخص نیست",
+    "voice": "محاوره‌ای ساده؛ مثل «تعطیل نمیشه». از شعار و دستورهای پراکنده خوشمان نمی‌آید.",
+    "activity": "نقاشی نوبتی روی کاغذ؛ مثال ساختگی است، نام تجاری یا قانون رسمی ندارد",
+    "materials": [
+      "کاغذ",
+      "خودکار"
+    ],
+    "rules": [
+      "هر نفر یک خط به همان نقاشی اضافه می‌کند",
+      "بعد از یک دور، هر نفر می‌گوید فکر می‌کرده چه چیزی می‌کشد"
+    ],
+    "goal": "خواننده بتواند اولین دور را اجرا کند"
+  },
+  "analytics": {
+    "source": "owner-supplied fictional project export",
+    "before": {
+      "dates": "2026-09-01..2026-09-07",
+      "visits": 12
+    },
+    "after": {
+      "dates": "2026-09-08..2026-09-21",
+      "visits": 30
+    },
+    "tracking_change": "scroll event enabled on 2026-09-08",
+    "search_console": null,
+    "trends": null,
+    "reader_feedback": null
+  },
+  "content": [
+    {
+      "url": "/blog/shared-drawing",
+      "title": "نقاشی نوبتی با دوست‌ها",
+      "covers": "materials and first round"
+    }
+  ],
+  "comparison": [
+    {
+      "name": "A, fictional Iranian publisher",
+      "page": "setup and a worked round; no ending explained",
+      "evidence": "provided text description only"
+    },
+    {
+      "name": "B, fictional Iranian publisher",
+      "page": "conversational introduction; no example round",
+      "evidence": "provided text description only"
+    }
+  ],
+  "research": {
+    "owner_feedback": "لحن خودمونی و مثال عملی رو دوست دارم",
+    "reader_interviews": [],
+    "search_observation": "two Persian pages mention this activity; no demand measurement"
+  },
+  "ui": {
+    "card_crop": "112 x 84 pixels",
+    "cover": "full app screenshot scaled down; important controls are tiny",
+    "title": "با دوست‌هامون یه نقاشی نوبتی بسازیم؛ از یه خط ساده تا نتیجه‌ای که هیچ‌کس انتظارش رو نداشت",
+    "header": "sticky requested; ancestor overflow and runtime unknown",
+    "access": "description only; no image pixels, source, browser or app backend available"
+  }
+}

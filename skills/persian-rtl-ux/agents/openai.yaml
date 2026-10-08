@@ -1,4 +1,4 @@
 interface:
   display_name: "Persian RTL UX"
-  short_description: "Audit Persian RTL layouts and mixed-direction inputs"
-  default_prompt: "For relevant Iranian tasks, state money units, local input/service contracts and evidence limits. Use $persian-rtl-ux to review this interface against its language, region, input and transaction-state contracts; report verified fixes and untested behavior."
+  short_description: "Improve Persian interfaces and reading usability"
+  default_prompt: "Use $persian-rtl-ux to inspect Persian direction, identifiers, inputs and responsive reading. For articles/cards, check actual title wrapping, thumbnail crops and instructional images; report runtime verification limits. Apply local contracts only where relevant."

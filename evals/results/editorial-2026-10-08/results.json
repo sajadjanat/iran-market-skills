@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-08",
+  "base_revision": "287f37308f80820e139f418fad823c98d2cb1731",
+  "working_tree": "Modified five skill packages; exact evaluated inputs in skill-fingerprints.json",
+  "agent": "Five fresh Codex collaboration sessions, no inherited history; parent reviewer not blinded",
+  "model": "Exact runtime model/version not exposed",
+  "tools": "Local file reading and output writing; browsing, other skills, backend and product runtime access prohibited",
+  "fixture": "Repository-authored synthetic editorial-brief.json; not customer evidence",
+  "results": [
+    {
+      "case": "copy-practical-article",
+      "skill": "persian-brand-copy",
+      "result": "pass",
+      "output": "copy-practical-article.md",
+      "output_sha256": "f6d9b8db8d0743f5cdf455d531a5d632184662348f761eaf8f4a784e7b34dabe",
+      "original_captured_output_sha256": "f6d9b8db8d0743f5cdf455d531a5d632184662348f761eaf8f4a784e7b34dabe",
+      "criteria": [
+        {
+          "criterion": "Produces a complete conversational Persian article rather than only an outline or generic tips",
+          "status": "pass",
+          "evidence_excerpt": "چهار نفرید، توی خونه‌اید و نیم ساعت وقت دارید."
+        },
+        {
+          "criterion": "Title/opening promise matches the drawing activity and the brief; no fabricated popularity or commercial rules",
+          "status": "pass",
+          "evidence_excerpt": "این فعالیت نام تجاری یا قانون رسمی نداره."
+        },
+        {
+          "criterion": "Explains supplied materials/setup and a concrete turn leading to the completed first-round outcome",
+          "status": "pass",
+          "evidence_excerpt": "نفر دوم دو سر این منحنی رو با یه خط افقی به هم وصل می‌کنه"
+        },
+        {
+          "criterion": "Sections/paragraphs advance one reader outcome; ending is usable without a forced sales CTA",
+          "status": "pass",
+          "evidence_excerpt": "برای اولین بار، همون چهار خط و شنیدن برداشت هر نفر کافیه"
+        }
+      ]
+    },
+    {
+      "case": "seo-editorial-evidence",
+      "skill": "persian-seo",
+      "result": "pass",
+      "output": "seo-editorial-evidence.md",
+      "output_sha256": "c4a21afd088e35a3d01e6def2e3e336910c88253e94aec1aeadc2095e0f7d626",
+      "original_captured_output_sha256": "cf3a7e7c130065abe89f8bb72148df7a6848fa5b8db186fe92c8e8a24389b86f",
+      "criteria": [
+        {
+          "criterion": "Uses supplied project evidence without requesting unnecessary browser access",
+          "status": "pass",
+          "evidence_excerpt": "فعلاً نیازی به درخواست دسترسی تازه نیست"
+        },
+        {
+          "criterion": "Identifies unequal comparison windows and scroll tracking change; distinguishes visits from feedback or task completion",
+          "status": "pass",
+          "evidence_excerpt": "چون دورهٔ دوم دو برابر طول دارد"
+        },
+        {
+          "criterion": "Does not invent Trends, indexing, search volume or proof of improved content quality",
+          "status": "pass",
+          "evidence_excerpt": "اطلاعات سرچ کنسول، Trends و بازخورد خواننده موجود نیست"
+        },
+        {
+          "criterion": "Proposes a concrete reader outcome and checks overlap with the existing drawing article; labels growth assumptions",
+          "status": "pass",
+          "evidence_excerpt": "اگر این بخش با یک مثال کوتاه در مقالهٔ موجود کامل می‌شود، همان‌جا اضافه‌اش کنیم"
+        }
+      ]
+    },
+    {
+      "case": "market-situated-culture",
+      "skill": "iran-market-discovery",
+      "result": "pass",
+      "output": "market-situated-culture.md",
+      "output_sha256": "e469117af0c90a8bf45a66e8e08ec590b6b6dda64b019cd5a9a97bda0c11a7a0",
+      "original_captured_output_sha256": "f4a6e305025715b7542441fbe517b6adcf2d2b2cd1d2ad0a51383e2716605ec1",
+      "criteria": [
+        {
+          "criterion": "Distinguishes owner register preference from representative Iranian audience evidence",
+          "status": "pass",
+          "evidence_excerpt": "نمایندهٔ سلیقهٔ خوانندگان نیست"
+        },
+        {
+          "criterion": "Defines audience and situational constraints without national cultural stereotypes",
+          "status": "pass",
+          "evidence_excerpt": "چهار دوست بزرگسال، در خانه، با نیم ساعت وقت و کاغذ و خودکار"
+        },
+        {
+          "criterion": "Asks neutral Persian questions about recent actual gathering/activity episodes and constraints",
+          "status": "pass",
+          "evidence_excerpt": "آخرین بار که با چند دوست توی خانه دور هم بودید، وقتتان چطور گذشت؟"
+        },
+        {
+          "criterion": "Treats cultural fit and popularity as unverified hypotheses with a practical next test",
+          "status": "pass",
+          "evidence_excerpt": "این نمونه اکتشافی است و نتیجه‌اش به کل ایران تعمیم داده نمی‌شود"
+        }
+      ]
+    },
+    {
+      "case": "benchmark-editorial-fit",
+      "skill": "iran-product-benchmark",
+      "result": "pass",
+      "output": "benchmark-editorial-fit.md",
+      "output_sha256": "1750c3a0056226f2302e27ef3bbdcd0d9cac023020295a95cce69d1b53a9b4d1",
+      "original_captured_output_sha256": "3d592d00b2e0502db294acd4161c417bca8b9f9008ce7e1472468689905eaca0",
+      "criteria": [
+        {
+          "criterion": "Compares the same reader job through the supplied text descriptions; does not claim live observations",
+          "status": "pass",
+          "evidence_excerpt": "صفحه، تصویر یا تعامل واقعی بررسی نشده"
+        },
+        {
+          "criterion": "Identifies missing example/ending and recommends original usable explanation",
+          "status": "pass",
+          "evidence_excerpt": "آماده‌سازی و مثال را با متن تازه بنویسیم"
+        },
+        {
+          "criterion": "Does not infer national popularity, engagement or best-site ranking from the two examples",
+          "status": "pass",
+          "evidence_excerpt": "از آن‌ها نمی‌شود دربارهٔ ناشران ایرانی یا سلیقهٔ خوانندگان نتیجهٔ عمومی گرفت"
+        },
+        {
+          "criterion": "Separates supplied observations, editorial interpretation and unknown audience response",
+          "status": "pass",
+          "evidence_excerpt": "هنوز با خواننده آزمایش نشده"
+        }
+      ]
+    },
+    {
+      "case": "rtl-editorial-cards",
+      "skill": "persian-rtl-ux",
+      "result": "pass",
+      "output": "rtl-editorial-cards.md",
+      "output_sha256": "263bd8e74df114f6130a70d0bc4cceefbdb2e5da8bff0f9af310617f86eb1f36",
+      "original_captured_output_sha256": "64a68a50ace66163f54626dc1e88fd274bb0f0d5c85d32064cbce8afdd478cb9",
+      "criteria": [
+        {
+          "criterion": "Addresses thumbnail recognition at the supplied 112x84 crop and long Persian title wrapping",
+          "status": "pass",
+          "evidence_excerpt": "خروجی نهایی را دقیقاً در ۱۱۲ × ۸۴"
+        },
+        {
+          "criterion": "Distinguishes illustrative cover from authentic instructional screenshots and explains alt text purpose",
+          "status": "pass",
+          "evidence_excerpt": "آن را تصویرسازی بدانیم، نه نمای واقعی برنامه"
+        },
+        {
+          "criterion": "Checks ancestor overflow, stacking and anchor/focus visibility for sticky header rather than asserting a universal CSS fix",
+          "status": "pass",
+          "evidence_excerpt": "ظرف اسکرول و `overflow` همهٔ والدها"
+        },
+        {
+          "criterion": "Explicitly marks visual/runtime behavior unverified with description-only access",
+          "status": "pass",
+          "evidence_excerpt": "اکنون هیچ‌یک اجرا نشده‌اند"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No without-skill baseline or previous-version comparison",
+    "No Iranian reader study, performance estimate or conversion/traffic measurement",
+    "No live UI, game publisher rules or actual tutorial flow tested"
+  ]
+}

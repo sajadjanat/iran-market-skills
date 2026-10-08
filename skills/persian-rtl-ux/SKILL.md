@@ -11,6 +11,8 @@ Preserve content meaning, usable inputs and product requirements. Apply the [evi
 
 For Iranian projects, read the **Iranian implementation contracts** section in [the task reference](references/rtl-localization.md) when money, payments, phone/SMS, fulfillment or local dates affect the request. Apply relevant checks only; keep other Persian regions and the user’s scope intact.
 
+For articles or content interfaces, read the editorial section of [the task reference](references/rtl-localization.md) when the request concerns local cultural fit, article comparison or reading/card usability. Apply only the relevant checks.
+
 ## Workflow
 
 1. **Identify the contract.** Establish audit versus implementation, platform/framework, locale variants and design conventions. Record calendar, timezone, digit and currency requirements; ask where ambiguity affects correctness. Separate language from region and service eligibility. For forms/transactions use the RTL reference’s input and state contracts. RTL alone does not choose these settings.

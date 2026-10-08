@@ -39,3 +39,7 @@ Record the actual service area, recent customer episode, decision maker/payer, l
 ## Iranian operating details
 
 The [Iranian-context discovery questions](../skills/iran-market-discovery/references/public-sources.md) covers the task-specific Iran checks. See the [Persian coverage map](iran-context.fa.md) for example inputs and applicable skills. Provider policies and audience assumptions remain explicit; the new reference examples are authored demonstrations, not independent model evaluation results.
+
+## Cultural fit for content
+
+The [source guide](../skills/iran-market-discovery/references/public-sources.md) also covers situated cultural research: recent activities, audience constraints, local availability and neutral Persian questions. One owner's article feedback establishes that brand's preferences; it cannot establish what all Iranians enjoy. Ask about actual episodes before choosing a culturally framed idea.

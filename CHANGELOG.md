@@ -2,6 +2,8 @@
 
 ## [0.2.0] - Unreleased
 
+- Added practical Persian article/tutorial guidance, editorial evidence decisions, situated cultural research, original content benchmarking and card/reading checks. Updated all five guides, UI prompts and editorial evaluation cases; no audience-performance claim is implied.
+
 - Expanded task-specific Iranian operating contracts across the five skills: money units and totals, payment recovery, SMS/mobile, calendar, service addresses, interruptions, trust and local/seasonal search.
 - Added a Persian 16-topic coverage map, five synthetic contract cases and additional RTL test inputs. The 2026-10-04 fresh-session contract evaluation records exact outputs and 21 passing criteria; no real-user or cross-model claim.
 - Made whole-collection installation and the Sepehra collection download prominent in English/Persian onboarding. Recorded that the Claude account check reached sign-in, leaving actual upload and Claude execution unverified.

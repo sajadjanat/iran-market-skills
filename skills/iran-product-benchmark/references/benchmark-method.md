@@ -65,3 +65,11 @@ Select from this matrix according to the user task; do not turn every audit into
 Candidate shopping contexts include [Torob](https://torob.com/) and [Digikala](https://www.digikala.com/); home-service contexts include [Achareh](https://achareh.co/) and [Khedmat Az Ma](https://khedmatazma.com/). Official homepages read 2026-10-03 for category context only. Match the actual job, seller, city, stock, account and date before comparing. A comparison service and a merchant need not have equivalent checkout responsibilities; no current ranking or affiliation is implied.
 
 Synthetic comparison: A lists 250,000 toman with unknown shipping; B lists a final 2,800,000 rial including shipping. B normalizes to 280,000 toman; A's final total is unknown, so an overall cheapest conclusion is unsupported. Return the missing evidence and a target-design recommendation, not a fabricated winner.
+
+## Comparing editorial experiences
+
+When the task is a Persian blog or tutorial, compare pages answering the same reader question, not an overall “best Iranian site” ranking. Capture the date, source/author, intended audience, title promise, opening, explanation sequence, worked example, image purpose and usable reader outcome. Use original local publishers/operators where relevant, and primary manuals for rules or UI contracts. A local domain is not proof of cultural fit.
+
+Identify a specific gap the target article can fill: missing setup, an unexplained turn, unclear ending, unavailable materials or an outdated interface. Separate observed text/screenshot facts from your judgment about readability; validate that judgment with readers when needed. Do not infer popularity or engagement from result order or publication count. Create original prose/examples; do not copy a competitor's title or rebuild their article through close paraphrase.
+
+For tutorials, a generated cover can help recognition but cannot document a real screen. Compare screenshot legibility at the actual card crop and inline instructional size. State which UI states were actually observed and which remain unknown.

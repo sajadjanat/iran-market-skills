@@ -24,3 +24,5 @@ The [2026-10-04 operating-contract run](results/iran-contracts-2026-10-04/review
 records the five newer contract cases with exact outputs, criterion-level
 evidence and package fingerprints. Claude account validation remains
 [unverified after a sign-in redirect](results/claude-account-check-2026-10-04.md).
+
+The [2026-10-08 editorial run](results/editorial-2026-10-08/review.md) records five fresh-session offline cases, exact package/output hashes, criterion-level evidence and audience/runtime limitations.

@@ -1,4 +1,4 @@
 interface:
   display_name: "Iran Market Discovery"
-  short_description: "Research Iranian product opportunities with evidence"
-  default_prompt: "For relevant Iranian tasks, state money units, local input/service contracts and evidence limits. Use $iran-market-discovery to investigate this customer job in its actual Iranian service area, distinguish evidence from cultural assumptions and recommend the next validation experiment."
+  short_description: "Research local needs without cultural stereotypes"
+  default_prompt: "Use $iran-market-discovery to investigate a bounded Iranian audience and decision through dated sources and recent user episodes. Treat cultural fit, demand and owner preferences according to their actual evidence; propose the next useful test."

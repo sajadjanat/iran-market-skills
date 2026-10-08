@@ -1,4 +1,4 @@
 interface:
   display_name: "Persian Brand Copy"
-  short_description: "Write Persian copy that fits the audience and offer"
-  default_prompt: "For relevant Iranian tasks, state money units, local input/service contracts and evidence limits. Use $persian-brand-copy to draft natural Persian for the supplied audience and voice, preserving offer facts and actual product states."
+  short_description: "Write useful Persian articles and brand copy"
+  default_prompt: "Use $persian-brand-copy for the supplied audience, channel and approved voice. For articles, build one useful reader outcome with connected explanation and a concrete example; preserve verified facts and product states."

@@ -36,3 +36,9 @@ Keep pending payment, confirmation, cancellation and refund outcomes distinct. U
 ## Iranian operating details
 
 The [Iranian operational copy checklist](../skills/persian-brand-copy/references/persian-writing.md) covers the task-specific Iran checks. See the [Persian coverage map](iran-context.fa.md) for example inputs and applicable skills. Provider policies and audience assumptions remain explicit; the new reference examples are authored demonstrations, not independent model evaluation results.
+
+## Articles, ideas and verified tutorials
+
+Use the [article method](../skills/persian-brand-copy/references/articles.md) for one clear reader outcome, a connected explanation and a worked example. Preserve the user's approved register; conversational Persian is an option for a brief, not a universal audience rule. A practical idea should introduce something the reader can actually try. A tutorial needs real labels and states; unknown controls cannot be invented.
+
+Example request: «برای جمع چهار نفره یه ایدهٔ قابل اجرا معرفی کن. لحن مثل متن تأییدشدهٔ ما محاوره‌ای باشه؛ وسایل، یه دور نمونه و نتیجه رو توضیح بده. ادعای محبوبیت نکن.» This is an authored request example, not measured audience evidence. Publication and images follow the existing authorized scope.

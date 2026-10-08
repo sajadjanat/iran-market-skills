@@ -251,5 +251,75 @@
       "Rejects fabricated service areas and duplicate spelling/location pages",
       "Keeps current policy/indexing/SMS/traffic unverified"
     ]
+  },
+  {
+    "id": "copy-practical-article",
+    "skill": "persian-brand-copy",
+    "request": "فقط از بریف ساختگی استفاده کن و مقالهٔ کامل فارسی برای همین ایده بنویس. لحن محاوره‌ای تأییدشده رو نگه دار. یه عنوان روشن، توضیح پیوسته و نمونهٔ یک دور داشته باشه؛ از شعار و فهرست توصیه‌های بی‌ربط خوشم نمیاد. اینترنت نداریم؛ فعلاً منتشر نکن.",
+    "fixtures": [
+      "evals/fixtures/editorial-brief.json"
+    ],
+    "criteria": [
+      "Produces a complete conversational Persian article rather than only an outline or generic tips",
+      "Title/opening promise matches the drawing activity and the brief; no fabricated popularity or commercial rules",
+      "Explains supplied materials/setup and a concrete turn leading to the completed first-round outcome",
+      "Sections/paragraphs advance one reader outcome; ending is usable without a forced sales CTA"
+    ]
+  },
+  {
+    "id": "seo-editorial-evidence",
+    "skill": "persian-seo",
+    "request": "با دادهٔ پروژهٔ ساختگی بگو اوضاع بلاگ بهتر شده یا نه و برای محتوای بعدی چه پیشنهادی داری. فعلاً دسترسی جدید نخواه؛ فقط همین فایل را داریم. یک مقالهٔ ایده هم پیشنهاد بده، اما تقاضای سرچ را حدس نزن.",
+    "fixtures": [
+      "evals/fixtures/editorial-brief.json"
+    ],
+    "criteria": [
+      "Uses supplied project evidence without requesting unnecessary browser access",
+      "Identifies unequal comparison windows and scroll tracking change; distinguishes visits from feedback or task completion",
+      "Does not invent Trends, indexing, search volume or proof of improved content quality",
+      "Proposes a concrete reader outcome and checks overlap with the existing drawing article; labels growth assumptions"
+    ]
+  },
+  {
+    "id": "market-situated-culture",
+    "skill": "iran-market-discovery",
+    "request": "این ایده حس ایران میده؟ فقط از فایل ساختگی استفاده کن و بگو چطور فرهنگی مناسب‌ترش کنیم؛ تحقیق انجام نشده رو واقعیت نکن. سؤال‌هایی بده که بفهمیم برای مخاطبمون جواب میده یا نه.",
+    "fixtures": [
+      "evals/fixtures/editorial-brief.json"
+    ],
+    "criteria": [
+      "Distinguishes owner register preference from representative Iranian audience evidence",
+      "Defines audience and situational constraints without national cultural stereotypes",
+      "Asks neutral Persian questions about recent actual gathering/activity episodes and constraints",
+      "Treats cultural fit and popularity as unverified hypotheses with a practical next test"
+    ]
+  },
+  {
+    "id": "benchmark-editorial-fit",
+    "skill": "iran-product-benchmark",
+    "request": "دو نمونهٔ ناشر ایرانی ساختگی تو فایل رو برای نوشتن مقالهٔ خودمون مقایسه کن. نتیجه بگو چه چیزی اضافه کنیم که خواننده واقعاً بتونه اجراش کنه؛ اینترنت و مرورگر نداریم.",
+    "fixtures": [
+      "evals/fixtures/editorial-brief.json"
+    ],
+    "criteria": [
+      "Compares the same reader job through the supplied text descriptions; does not claim live observations",
+      "Identifies missing example/ending and recommends original usable explanation",
+      "Does not infer national popularity, engagement or best-site ranking from the two examples",
+      "Separates supplied observations, editorial interpretation and unknown audience response"
+    ]
+  },
+  {
+    "id": "rtl-editorial-cards",
+    "skill": "persian-rtl-ux",
+    "request": "تامنیل و عنوان کارت این مقاله رو بهتر کنیم و هدرش استیکی با هالهٔ محو بشه. فقط توصیف فایل رو داریم؛ تصویر یا کد یا مرورگر نداریم. بگو ایراد و پیشنهاد چیه و چطور باید بررسی کنیم.",
+    "fixtures": [
+      "evals/fixtures/editorial-brief.json"
+    ],
+    "criteria": [
+      "Addresses thumbnail recognition at the supplied 112x84 crop and long Persian title wrapping",
+      "Distinguishes illustrative cover from authentic instructional screenshots and explains alt text purpose",
+      "Checks ancestor overflow, stacking and anchor/focus visibility for sticky header rather than asserting a universal CSS fix",
+      "Explicitly marks visual/runtime behavior unverified with description-only access"
+    ]
   }
 ]

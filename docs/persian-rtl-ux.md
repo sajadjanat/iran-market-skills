@@ -41,3 +41,7 @@ Test Latin, Persian and Arabic-Indic digits under each field contract; preserve 
 ## Iranian operating details
 
 The [Iranian implementation contracts](../skills/persian-rtl-ux/references/rtl-localization.md) covers the task-specific Iran checks. See the [Persian coverage map](iran-context.fa.md) for example inputs and applicable skills. Provider policies and audience assumptions remain explicit; the new reference examples are authored demonstrations, not independent model evaluation results.
+
+## Reading and thumbnails
+
+The [RTL reference](../skills/persian-rtl-ux/references/rtl-localization.md) now covers long Persian titles, actual thumbnail crops, illustrative covers versus instructional screenshots and sticky reading headers. A large attractive image may fail in a small card. Confirm readability and scroll/focus behavior at the actual target sizes; static source review does not establish those runtime outcomes.

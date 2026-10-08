@@ -54,3 +54,11 @@ Probe neutrally: «آخرین بار که سفارش تعمیر دادید چه 
 Treat Torob/Digikala as candidate shopping alternatives and Achareh/Khedmat Az Ma as candidate home-service contexts; official homepages reviewed 2026-10-03 establish category context only. Their brand visibility does not establish share, customer preference or a representative Iranian sample. Recruit from the target service area and actual job, retain contradictory experiences and distinguish exploratory interviews from prevalence estimates. Collect only authorized necessary data; redact phone/address/payment identifiers from published records.
 
 Under the conventional example contract, convert 2,500,000 rial to 250,000 toman in an explicit comparison column, keeping originals. Missing final cost, offer period or household context remains a gap. If evidence is unavailable, return the questions, recruitment plan and next observable test rather than a cultural conclusion.
+
+## Culture as a situated research question
+
+For editorial or leisure research, define who, where, with whom, for what occasion and with what time/budget/materials. Replace “what Iranians like” with a bounded question such as “what did these readers do at their last small gathering?” A brand owner's feedback is evidence about that editorial brief; it is not a representative audience study.
+
+Use neutral episode questions: «آخرین بار که دور هم جمع شدید، چه کاری کردید؟»، «بازی یا وسیله رو از کجا پیدا کردید؟»، «کجای کار گیر کردید؟» Ask about alternatives actually used, constraints and reasons without suggesting that everyone drinks tea, attends family gatherings or celebrates the same occasions. Separate participant reports from observed behavior and the researcher's inference.
+
+Check locally relevant availability, language/edition, space, group composition and time only where they affect the activity. Iranian publishers or operators can support specific facts; search visibility, a few reviews and a translated name cannot establish national popularity. Treat cultural fit as a hypothesis to test with the intended readers, not a stereotype to write into the article.

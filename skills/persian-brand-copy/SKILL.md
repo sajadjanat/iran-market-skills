@@ -1,6 +1,6 @@
 ---
 name: persian-brand-copy
-description: Write or revise Persian brand, marketing and product copy for a defined audience, offer and channel. Use for landing pages, campaigns, product descriptions, interface messages or an established Persian brand voice.
+description: Write or revise Persian brand, marketing and product copy for a defined audience, offer and channel. Use for landing pages, campaigns, product descriptions, interface messages, practical blog articles, verified tutorials or an established Persian brand voice.
 license: MIT
 ---
 
@@ -9,6 +9,8 @@ license: MIT
 Write natural Persian fitting the brief and preserving verified offer facts. Apply the [evidence policy](references/evidence-policy.md). Read the [writing reference](references/persian-writing.md) when choosing orthography/register or checking placement-specific copy.
 
 For Iranian projects, read the **Iranian operational copy checklist** section in [the task reference](references/persian-writing.md) when money, payments, phone/SMS, fulfillment or local dates affect the request. Apply relevant checks only; keep other Persian regions and the user’s scope intact.
+
+For blog articles, practical ideas and tutorials, read [the article method](references/articles.md). Establish one reader outcome, a connected explanation and a worked example; preserve approved voice through revisions.
 
 ## Workflow
 

@@ -35,3 +35,7 @@ A city page needs actual coverage and useful local facts; neither a city-name sw
 ## Iranian operating details
 
 The [Iranian commerce and local-page checks](../skills/persian-seo/references/audit-method.md) covers the task-specific Iran checks. See the [Persian coverage map](iran-context.fa.md) for example inputs and applicable skills. Provider policies and audience assumptions remain explicit; the new reference examples are authored demonstrations, not independent model evaluation results.
+
+## Editorial decisions
+
+The [editorial decision guide](../skills/persian-seo/references/editorial-decisions.md) distinguishes revising an existing answer, teaching an actual app task and proposing a distinct new article. Read available project analytics/connectors before requesting more access. Sparse data supports a hypothesis, not a claim that content improved or failed. An authorized creative article can proceed while its search-demand assumptions remain unverified.

@@ -49,3 +49,11 @@ Use these checks only for an Iranian target agreed in the brief. A Persian inter
 - **Interrupted checkout:** a timeout or delayed bank SMS is not confirmed failure. Preserve cart/form/order reference; use the existing status/recovery contract and server protection against duplicate charge or order. Do not implement or execute real payment just to demonstrate the UX. Account for low bandwidth, delayed assets and SMS as test conditions, not a claim about all Iranian users.
 
 Completion evidence: show the money conversion boundary and expected totals; record phone/OTP strings, date/zone, eligibility and recovery cases with actual versus unrun checks.
+
+## Persian articles and content cards
+
+Use real long Persian titles and mixed-script game/product names at target mobile and desktop widths. Check heading order, readable body measure/spacing, wrapping, category labels and whether truncation hides the subject. Source inspection supports a suspected issue; browser checks establish only the tested widths/states.
+
+Inspect thumbnails at the actual card dimensions and crop, not only as large source files. Prefer a recognizable subject, clear contrast and little necessary text; tiny screenshots often lose the detail that makes a tutorial understandable. Keep authentic screenshots in instructional passages where needed. Generated covers are illustrations, not verified UI states. Provide informative alt text for meaningful images; avoid repeating nearby captions or exposing sensitive screenshot data.
+
+When a sticky reading header is requested, inspect scrolling containers, overflow ancestors, stacking and available space before proposing CSS. Check scroll behavior, anchor/focus targets, visible content and mobile height in the runtime. A soft shadow/blur must not obscure text or trap pointer events. Record any untested browser, zoom or assistive-technology behavior; do not claim a universal fix from a static screenshot.
