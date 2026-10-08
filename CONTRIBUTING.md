@@ -1,5 +1,7 @@
 # Contributing
 
+For README changes, follow the [README maintenance standard](docs/readme-standard.md): bilingual parity, visual provenance and accurate evidence/status claims.
+
 Start with a concrete request the existing skill handles poorly. Include an anonymized input and the observable expected behavior. This release concentrates on completing the five existing skills.
 
 ## Edit and check

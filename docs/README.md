@@ -1,5 +1,7 @@
 # Guides and examples
 
+See the [README maintenance standard](readme-standard.md) for onboarding, visual examples and bilingual documentation checks.
+
 Each guide contains when to use the skill, a request, an original synthetic example, observable success criteria and tool limits.
 
 - [Iran market discovery](iran-market-discovery.md)

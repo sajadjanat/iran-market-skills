@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-08",
+  "browser": "154.0.4258.62",
+  "channel": "msedge",
+  "headless": true,
+  "fixture": "Repository-authored synthetic RTL demo, unchanged HTML; screenshots only, not full accessibility testing",
+  "checks": [
+    {
+      "state": "before",
+      "viewport": {
+        "width": 390,
+        "height": 360
+      },
+      "scale": 2,
+      "language": null,
+      "direction": null,
+      "input": "09120000000",
+      "horizontalOverflow": false
+    },
+    {
+      "state": "after",
+      "viewport": {
+        "width": 390,
+        "height": 360
+      },
+      "scale": 2,
+      "language": "fa",
+      "direction": "rtl",
+      "input": "09120000000",
+      "horizontalOverflow": false
+    }
+  ]
+}

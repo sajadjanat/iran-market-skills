@@ -1,91 +1,120 @@
 # Iran Market Skills
 
-[فارسی](README.fa.md) · [MIT](LICENSE) · [Examples and guides](docs/README.md) · [Explore on Sepehra](https://sepehra.ir/skills/)
+**Five independent skills for Iranian market research, Persian content and RTL products.**
 
-Five focused agent skills for researching Iranian product opportunities and building usable Persian digital products. Get a decision, a dated comparison, a concrete RTL review, usable Persian copy or a prioritized SEO audit—with evidence and unknowns visible.
+[فارسی](README.fa.md) · [Quick start](#quick-start) · [Before & after](#before--after) · [Guides](docs/README.md) · [MIT](LICENSE)
 
-## Try a concrete task
+![Conceptual illustration of five modules for research, comparison, RTL, writing and search](docs/assets/readme/hero.png)
 
-A Persian interface can look right while breaking Latin order IDs, phone inputs or keyboard labels. The RTL skill reviews these cases and distinguishes source findings from runtime checks.
+Give your agent a concrete task, the right local context and a clear definition of done. Get a research decision, a dated comparison, an RTL review, usable Persian writing or a page-level SEO plan—with facts and unknowns kept visible.
 
-See the original synthetic [before](examples/rtl/before.html) and [after](examples/rtl/after.html) pages and the [walkthrough](docs/persian-rtl-ux.md). The example demonstrates fixes; it is not a measured conversion result.
+**For developers, product teams, researchers and editors.** Persian language and Iranian geography are separate inputs; each brief keeps its own audience and voice.
 
-Works with standard skill loaders, including Claude Code and the Skills CLI destinations. Claude web/desktop has per-skill ZIP downloads; see [installation routes](docs/installation.md#claude-code). For a visual comparison, see [before and after on Sepehra](https://sepehra.ir/skills/#examples).
+## Quick start
 
-## Iranian operating details
-
-[Persian 16-topic coverage map](docs/iran-context.fa.md): money units and final cost, payment recovery, mobile/SMS, selected calendar, address/service area, RTL, trust and local search. Relevant rules are bundled inside each independent skill; provider policies and audience behavior are not inferred.
-
-Editorial work: [Persian article lessons and scope](docs/editorial-lessons.fa.md) cover connected articles, practical examples, situated local fit and evidence-based content decisions.
-
-## Install
-
-With Node.js and Git available, use the [Skills CLI](https://github.com/vercel-labs/skills). Check the current CLI's Node requirement.
-
-```bash
-npx skills@latest add sajadjanat/iran-market-skills
-```
-
-### Install the complete collection
-
-Install all five skills in one command, then choose your agent:
+With Node.js and Git installed, install all five through the [Skills CLI](https://github.com/vercel-labs/skills):
 
 ```bash
 npx skills@latest add sajadjanat/iran-market-skills --skill '*'
 ```
 
-For a specific tool, append `--agent claude-code`, `--agent codex` or
-`--agent cursor`. Start a fresh conversation/task after installation if needed.
+Choose your agent in the installer, or append `--agent codex`, `--agent claude-code` or `--agent cursor`. Check the CLI's current runtime requirements; start a fresh task if needed for discovery.
 
-**Claude web/desktop:** [download the complete collection ZIP](https://sepehra.ir/skills/downloads/iran-market-skills-bundle.zip).
-Extract it, then upload each of the five inner ZIPs through Customize → Skills.
-The collection ZIP is a download bundle, not a single Claude skill upload.
-See [the guided installer](https://sepehra.ir/skills/#install) and
-[upload instructions](docs/installation.md#claude-webdesktop-claudeai).
-Account upload remains independently untested.
+Then give a selected skill a real input:
 
-### Install an individual skill
+```text
+Use $persian-brand-copy to write a practical Persian article.
+Read the supplied approved passages and preserve their conversational voice.
+Introduce one activity, explain its materials and show a complete example round.
+End with something the reader can try. Verify facts; label fictional examples.
+Return a draft only.
+```
 
-To inspect the collection or target one skill:
+For a form audit, use `$persian-rtl-ux` with [the demo source](examples/rtl/before.html). A small edit can stay a small edit.
+
+<details>
+<summary>Install one skill, inspect the list, or use Claude web/desktop</summary>
 
 ```bash
 npx skills@latest add sajadjanat/iran-market-skills --list
 npx skills@latest add sajadjanat/iran-market-skills --skill persian-rtl-ux --agent codex
 ```
 
-Restart/start a new agent task if discovery requires it. For the native Codex installer, Windows instructions, local development and updates, see [installation](docs/installation.md). Each skill contains its own references, evidence policy and MIT license.
+For Claude web/desktop, build current per-skill ZIPs from this checkout:
 
-### First request
-
-```text
-Use $persian-rtl-ux to audit this Persian form.
-Check mixed Persian/Latin text, phone inputs, labels and responsive layout.
-Preserve stored identifiers. Report the checks you actually ran and what remains untested.
+```bash
+python scripts/package_skills.py
 ```
 
-For the included demo, attach examples/rtl/before.html. If you only provide source, expect a source review—not a runtime verification claim.
+Upload `dist/<skill-name>.zip`, not the repository ZIP or outer collection bundle. Account availability and upload/execution remain unverified here. See [installation routes](docs/installation.md) for manual installation, Windows and other agents. [Hosted downloads](https://sepehra.ir/skills/#install) have a separate publication state; updating source does not update those ZIPs.
+
+</details>
 
 ## Choose a skill
 
-| Skill | Use it for | Result / guide |
+| Your task | Skill | Useful output |
 |---|---|---|
-| iran-market-discovery | Decide what customer/opportunity to investigate in Iran | Evidence ledger and next experiment · [guide](docs/iran-market-discovery.md) |
-| iran-product-benchmark | Compare local product flows for a specific task | Dated observations and design implications · [guide](docs/iran-product-benchmark.md) |
-| persian-rtl-ux | Build or review Persian/mixed-direction UI | Scoped audit or patch and test record · [guide](docs/persian-rtl-ux.md) |
-| persian-brand-copy | Write Persian copy for an audience/offer/channel | Usable copy with factual claims checked · [guide](docs/persian-brand-copy.md) |
-| persian-seo | Prioritize search improvements for Persian pages | URL-level findings and measurement plan · [guide](docs/persian-seo.md) |
+| Decide which customer need to investigate | [iran-market-discovery](docs/iran-market-discovery.md) | Evidence ledger, bounded recommendation and next experiment |
+| Compare Iranian products or editorial experiences | [iran-product-benchmark](docs/iran-product-benchmark.md) | Dated observations, trade-offs and original adaptations |
+| Fix Persian forms, mixed text or reading interfaces | [persian-rtl-ux](docs/persian-rtl-ux.md) | Located issues, scoped changes and actual test limits |
+| Write brand copy, practical articles or tutorials | [persian-brand-copy](docs/persian-brand-copy.md) | Connected text in the approved voice, with facts checked |
+| Improve pages or choose new content | [persian-seo](docs/persian-seo.md) | URL-level priorities, reader outcomes and a measurement plan |
 
-Use them individually. A larger product workflow can move from discovery to benchmark, then UX/copy and SEO when those tasks are relevant; no skill silently invokes another.
+Use one skill or combine outputs deliberately. Every package contains its own references, evidence policy and license; none requires another skill or plugin.
 
-## Evidence and tool limits
+## Before & after
 
-Changing facts require current sources or dated supplied evidence. Public statistics, live observations, user evidence, inference and hypotheses are separate. Lack of browsing, login, analytics or runtime access is reported rather than filled with invented facts. Private research stays de-identified.
+### A Persian form: direction, identifiers and focus
 
-Sources were reviewed on 2026-10-03 with individual access statuses, including blocked/unavailable sources. See the [review](research/source-review-2026-10-03.md) and [data policy](DATA-POLICY.md). The earlier [pilot note](research/iran-public-sources-pilot.md) is historical context, not a current dataset.
+Actual screenshots of the repository's **synthetic demo**, captured on 2026-10-08 in headless Edge at the same 390 × 360 viewport, with identical phone input and focus state. The form has no backend.
 
-## Validation and compatibility
+<table>
+<tr><th>Before</th><th>After</th></tr>
+<tr>
+<td><img src="docs/assets/readme/rtl-before.png" width="390" alt="Before: left-aligned Persian form, small unassociated phone label and default input focus"></td>
+<td><img src="docs/assets/readme/rtl-after.png" width="390" alt="After: RTL form, isolated Latin order ID, labelled phone field and visible focus outline"></td>
+</tr>
+</table>
 
-The core packages use the [Agent Skills format](https://agentskills.io/specification); `agents/openai.yaml` provides Codex UI metadata. The CLI can discover all five. Agent-specific execution and tool support still need their own checks; discovery alone is not a compatibility guarantee.
+| Change | Why it matters |
+|---|---|
+| `lang="fa"`, `dir="rtl"` | Establish Persian language and reading direction |
+| Isolated LTR order ID | Keep `AB-123/45` readable without rewriting its value |
+| Associated label and focus style | Give the field a programmatic name and visible focus |
+| Logical spacing and wrapping | Support the intended layout at narrow widths |
+
+Inspect [before HTML](examples/rtl/before.html), [after HTML](examples/rtl/after.html), [capture details](docs/assets/readme/capture.json) and [earlier keyboard/browser verification](evals/results/review-2026-10-03.md). Appearance alone does not establish screen-reader, native keyboard, clipboard or backend behavior.
+
+### A practical idea: from vague advice to a usable activity
+
+An original illustrative rewrite—not a controlled with-skill/without-skill experiment:
+
+| Vague copy | Practical rewrite for a conversational brief |
+|---|---|
+| «با یک فعالیت خلاقانه، لحظاتی فراموش‌نشدنی برای دوستان خود رقم بزنید.» | «یه کاغذ بذار وسط و از هر نفر بخواه یه خط به نقاشی اضافه کنه. نفر بعد باید همون شکل رو ادامه بده؛ بعد از یه دور، ببینید هر کدومتون فکر می‌کردید دارید چی می‌کشید.» |
+
+The rewrite gives a reader an activity and a next step. A full article needs setup, a worked round and a clear ending. Formal briefs retain formal Persian. See [the article method](skills/persian-brand-copy/references/articles.md), [a full captured article](evals/results/editorial-2026-10-08/copy-practical-article.md) and [the editorial lessons](docs/editorial-lessons.fa.md).
+
+## Useful local context
+
+Check details that change the task: rial/toman and final cost, payment states, digit/phone contracts, selected calendar and timezone, actual service coverage, mixed-script text and Persian query intent. [The coverage map](docs/iran-context.fa.md) explains the scope.
+
+For content, preserve approved voice, teach through concrete examples and research the reader's circumstances. One owner's taste or a few Persian search results cannot establish what all Iranians prefer. Available project evidence comes before unnecessary requests for more access.
+
+## Evidence and status
+
+| Record | What it establishes |
+|---|---|
+| [Editorial · 2026-10-08](evals/results/editorial-2026-10-08/review.md) | Five fresh sessions; 20 reviewed criteria passed on fictional inputs |
+| [Operating contracts · 2026-10-04](evals/results/iran-contracts-2026-10-04/review.md) | Five cases; 21 criteria passed on synthetic data |
+| [Local context · 2026-10-03](evals/results/iran-context-2026-10-03/review.md) | Five cases; 22 criteria passed on fictional inputs |
+| [Source review](research/source-review-2026-10-03.md) | Dated access statuses, including unavailable sources |
+
+Scoped checks are not a reader study, ranking guarantee or measured conversion improvement. Tool access and current facts need verification for each task. [Data policy](DATA-POLICY.md) separates observations, user evidence, inferences and hypotheses. [Real-user validation](docs/user-validation.fa.md) is still a proposed method, not a completed study.
+
+**Release status:** `0.2.0` is Unreleased in [CHANGELOG.md](CHANGELOG.md). Source installation, hosted ZIP publication and marketplace listing are separate. The [Agent Skills format](https://agentskills.io/specification) and Codex UI metadata support discovery; discovery does not establish execution across every agent. [Claude account upload](evals/results/claude-account-check-2026-10-04.md) remains unverified.
+
+## Development and contributions
 
 ```bash
 python -m pip install -r requirements-dev.txt
@@ -93,21 +122,10 @@ python scripts/validate_repo.py
 python -m unittest discover -s tests -v
 ```
 
-Offline checks validate packaging, metadata and links. [Behavioral scenarios](evals/README.md) cover task outcomes; they require actual model runs and honest result records.
+Structural checks cover independent packages, metadata, links and archives. Behavioral changes need actual runs using [the evaluation protocol](evals/README.md).
 
-## Status and contributing
+Bring an anonymized input, the failure and the observable expected outcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md); use the [release checklist](docs/releasing.md) before publication and [README standard](docs/readme-standard.md) when updating this page.
 
-0.2.0 is a release candidate; publication status is recorded in [CHANGELOG.md](CHANGELOG.md). See [actual validation results](evals/results/review-2026-10-03.md) for package installation, behavioral scenarios and browser/hosted CI checks. The Codex plugin manifest packages the collection; it does not itself publish to a marketplace.
+**Maintainer:** [Sajad Jannat](https://github.com/sajadjanat) · [Project page](https://sepehra.ir/skills/) · [Issues](https://github.com/sajadjanat/iran-market-skills/issues)
 
-See [contributing](CONTRIBUTING.md) and [release/maintenance checks](docs/releasing.md). Repository-authored material is MIT licensed; linked third-party sources retain their own rights.
-
-Persian language and the Iranian market are separate inputs. The [Iran-context review](research/iran-context-review-2026-10-03.md) informs local customer interviews, transaction-state copy, digit-entry contracts and truthful local/seasonal pages; these recommendations still need validation with the intended users.
-
-A [Persian real-user validation guide](docs/user-validation.fa.md) defines practical comprehension/task checks; no such customer study has been run in this repository.
-
-The [five fresh local-context evaluations](evals/results/iran-context-2026-10-03/review.md) passed their 22 criteria. Their fictional inputs and limits are recorded; this is not a customer study.
-
-The [2026-10-04 contract evaluation](evals/results/iran-contracts-2026-10-04/review.md)
-records five fresh-session outputs and 21 passing criteria on synthetic inputs.
-[Claude account validation](evals/results/claude-account-check-2026-10-04.md)
-remains unverified after the available browser reached sign-in.
+Repository-authored material is [MIT licensed](LICENSE). Third-party sources retain their rights. [Visual provenance](docs/assets/readme/README.md) distinguishes the generated cover from actual demo captures.
