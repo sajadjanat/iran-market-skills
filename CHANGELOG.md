@@ -2,6 +2,8 @@
 
 ## [0.2.0] - Unreleased
 
+- Rewrote English/Persian README around five new work situations: inventory discovery, rehearsal-room booking comparison, Persian invoices, contact-export help and store-page SEO prioritization. Each includes concrete inputs and an authored deliverable excerpt or acceptance criteria; the self-contained starting brief needs no repository fixture. All new scenarios are explicitly fictional and unexecuted; existing evaluation and project-use records remain separate. Added an individual capability/evidence review and source-attributed Eventbaz case study. Skill behavior is unchanged.
+
 - Added practical Persian article/tutorial guidance, editorial evidence decisions, situated cultural research, original content benchmarking and card/reading checks. Updated all five guides, UI prompts and editorial evaluation cases; no audience-performance claim is implied.
 
 - Expanded task-specific Iranian operating contracts across the five skills: money units and totals, payment recovery, SMS/mobile, calendar, service addresses, interruptions, trust and local/seasonal search.

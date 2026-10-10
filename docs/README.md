@@ -18,3 +18,5 @@ For a consented real-user pilot, use the [Persian validation guide](user-validat
 
 - [Iranian operating details — Persian coverage map](iran-context.fa.md)
 - [Persian editorial lessons and scope](editorial-lessons.fa.md)
+- [Recorded Eventbaz use: 11 article revisions, provenance and limits (Persian)](use-case-eventbaz.fa.md)
+- [Individual skill review and evidence-based recommendations — 2026-10-10 (Persian)](skill-review-2026-10-10.fa.md)
