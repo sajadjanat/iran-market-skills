@@ -12,6 +12,8 @@ For Iranian projects, read the **Iranian operational copy checklist** section in
 
 For blog articles, practical ideas and tutorials, read [the article method](references/articles.md). Establish one reader outcome, a connected explanation and a worked example; preserve approved voice through revisions.
 
+For campaigns, sales pages or multi-message persuasion work, read [the persuasive copy strategy](references/persuasive-copy.md) to plan positioning, outcome, proof and suitable hooks/body/CTAs. Keep this strategy optional for short edits, interface microcopy and practical articles.
+
 ## Workflow
 
 1. **Read the brief.** Identify audience, channel, desired action, offer facts, brand examples, terminology and real length constraints. Ask for missing facts that change a claim; otherwise record assumptions. Keep approved facts separate from creative choices.

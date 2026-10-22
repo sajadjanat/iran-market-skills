@@ -1,4 +1,4 @@
 interface:
   display_name: "Persian Brand Copy"
-  short_description: "Write useful Persian articles and brand copy"
-  default_prompt: "Use $persian-brand-copy for the supplied audience, channel and approved voice. For articles, build one useful reader outcome with connected explanation and a concrete example; preserve verified facts and product states."
+  short_description: "Write persuasive Persian copy and useful articles"
+  default_prompt: "Use $persian-brand-copy for the supplied audience, offer, channel and approved voice. For campaigns or sales pages, clarify positioning, outcome and supported proof before drafting suitable hooks and CTAs; for small edits preserve scope, verified facts and product states."

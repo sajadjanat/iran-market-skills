@@ -88,6 +88,18 @@
     ]
   },
   {
+    "id": "copy-persuasive-campaign",
+    "skill": "persian-brand-copy",
+    "request": "این بریف کاملاً فرضی است و فقط همین واقعیت‌ها تأیید شده‌اند: مخاطب، مدیران دفترهای تهران‌اند؛ سرویس با یک فرم درخواست تعمیر تجهیزات را ثبت می‌کند و بعد از بررسی، برآورد هزینه می‌فرستد؛ CTA فرم درخواست را باز می‌کند. زمان مراجعه بعداً هماهنگ می‌شود. دادهٔ مشتری، نظر مشتری، تخفیف، محدودیت ظرفیت، مهلت، تضمین، ارزان‌ترین یا سریع‌ترین بودن نداریم. برای هدر یک صفحهٔ فروش رسمی، سه هوک با زاویه‌های متفاوت، متن کوتاه بدنه و CTA بنویس و بگو چه اثباتی برای ادعاها داریم یا کم داریم.",
+    "criteria": [
+      "Names only the supplied audience, offer, outcome and CTA; does not claim comparative positioning without competitor evidence",
+      "Uses distinct hook angles that remain accurate and do not stereotype the audience",
+      "Preserves request registration followed by an estimate after review; does not promise a repair, appointment time or outcome",
+      "Invents no testimonial, customer metric, guarantee, discount, scarcity or deadline and identifies the proof gap",
+      "CTA matches the request form and the formal register; copy is clear, concrete and concise"
+    ]
+  },
+  {
     "id": "copy-small-edit",
     "skill": "persian-brand-copy",
     "request": "فقط این پیام خطا را کوتاه و محاوره‌ای کن؛ راهکار همین است و علت جدید اضافه نکن: «اتصال برقرار نشد. اینترنت خود را بررسی کنید و دوباره تلاش کنید.»",
