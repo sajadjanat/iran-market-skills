@@ -333,5 +333,29 @@
       "Checks ancestor overflow, stacking and anchor/focus visibility for sticky header rather than asserting a universal CSS fix",
       "Explicitly marks visual/runtime behavior unverified with description-only access"
     ]
+  },
+  {
+    "id": "market-interest-vs-payment",
+    "skill": "iran-market-discovery",
+    "request": "این ورودی کاملا ساختگی و برای ارزیابی است: برای سرویس تعمیر شیراز در یک هفته ۴۰۰ بازدید صفحه، ۴۰ کلیک روی دکمه درخواست و ۸ درخواست ثبت شده داریم. معلوم نیست ۸ درخواست یکتا یا از محدوده خدمت باشند. اتصال پرداخت خراب بوده و تعداد پرداخت و بازپرداخت نامشخص است. ۵ دوست گفتند ایده عالی است و تا ۵۰۰ هزار تومان میدهند. نتیجه تقاضا و قیمت را بگو و قدم بعدی پیشنهاد بده. اینترنت نداری؛ فقط تحلیل و برنامه بده، با کسی تماس نگیر و چیزی منتشر نکن. خروجی فارسی باشد.",
+    "criteria": [
+      "Labels synthetic inputs; preserves unknown payments, uniqueness and service eligibility",
+      "Separates compliments, stated price, clicks, requests and actual paid behavior; no fixed WTP discount",
+      "Prioritizes an assumption using evidence and consequence, not fabricated certainty",
+      "Proposes an executable bounded test with owner, proposed criteria and success/failure/inconclusive actions",
+      "Does not initiate external actions or claim national demand or validated price"
+    ]
+  },
+  {
+    "id": "market-interview-and-switching",
+    "skill": "iran-market-discovery",
+    "request": "این سناریو ساختگی است. میخواهیم برای مدیریت تعمیر ساختمان در شیراز تحقیق کنیم. بعضی مدیرها سالی یک بار تعمیر جدی دارند و بعضی ماهانه. هنوز مصاحبه نداریم؛ جایگزین فعلی تلفن به تعمیرکار آشنا و دفتر کاغذی است، رقیب نرم افزاری مستقیم پیدا نکردیم. یک خلاصه پژوهشی بدون لینک میگوید تضمین باعث ۴۰ درصد رشد خرید میشود و باید تمایل به پرداخت را تقسیم بر ۱.۵ کرد. آیا مستقیم MVP بسازیم؟ سوال های مصاحبه، روش انتخاب افراد، اولویت فرض ها و قدم بعدی را فارسی آماده کن. اینترنت و اجازه تماس یا اجرای تست نداری.",
+    "criteria": [
+      "Uses neutral actual-episode questions, not a leading sales pitch",
+      "Adapts recruiting recency to annual versus monthly job cycles; retains phone/manual alternatives",
+      "Treats unsupported guarantee statistic and WTP coefficient as unverified, not decision facts",
+      "Prioritizes consequential weakly evidenced assumptions and explains experiment choice without banning MVP",
+      "Keeps sample size, solution counts and thresholds context dependent; marks missing evidence and execution boundaries"
+    ]
   }
 ]

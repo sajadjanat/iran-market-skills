@@ -1,4 +1,4 @@
 interface:
   display_name: "Iran Market Discovery"
-  short_description: "Research local needs without cultural stereotypes"
-  default_prompt: "Use $iran-market-discovery to investigate a bounded Iranian audience and decision through dated sources and recent user episodes. Treat cultural fit, demand and owner preferences according to their actual evidence; propose the next useful test."
+  short_description: "Research customer jobs and test risky market assumptions"
+  default_prompt: "Use $iran-market-discovery to investigate a bounded audience and product decision using dated sources and customer episodes, prioritize unsupported assumptions, and propose a practical next test that distinguishes interest from actual buying behavior."

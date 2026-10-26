@@ -12,6 +12,8 @@
 
 Structural validation checks case coverage and fixture existence. It does not execute model evaluations. Record actual runs in `evals/results/`; do not present expected outputs as measured results.
 
+The [2026-10-26 discovery-methods run](results/discovery-methods-2026-10-26/review.md) records three fresh-session offline cases for interviewing, switching and interest-versus-payment evidence. It includes complete outputs, package fingerprints, criterion-level review and installation/check limitations; no real-market or comparative performance claim is implied.
+
 ## Comparison protocol
 
 For an optional with-skill/without-skill comparison, use the same model, user request, tools and artifacts in fresh sessions. Compare task completion, factual support, handling of missing evidence and practical usability. Do not claim performance or conversion improvements from a single example.

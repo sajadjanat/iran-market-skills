@@ -19,7 +19,9 @@ An inference cites the records it combines and explains the reasoning. A hypothe
 
 ## Validation plan
 
-Record assumption, participant criteria, recruiting channel, method, observable signal, cost/time bound, owner-agreed success threshold, failure threshold and the action after either outcome. If the owner has not agreed a threshold, label it proposed. Interviews explore jobs and objections; actual buying behavior needs an appropriate behavioral test.
+Record the prioritized assumption and consequence if false, participant criteria, recruiting channel, method, observable signal, denominator where applicable, cost/time bound, owner, success/failure criteria and the action after success, failure or inconclusive evidence. Criteria may be qualitative or quantitative to fit the question. If the owner has not agreed the criteria, label them proposed. Preserve the original criteria when interpreting results and explain any later revision. Interviews explore jobs and objections; actual buying behavior needs an appropriate behavioral test.
+
+For interview evidence, record the anonymized episode, approximate event date, actual alternative, reported action/cost and what was directly observed versus inferred. For offer tests, distinguish exposure, click, qualified request, paid order, refund and repeat use; missing tracking remains unknown. The [methods reference](discovery-methods.md) explains selection and evidence limits. A plan records required execution permission separately from research findings.
 
 ### Synthetic example
 
