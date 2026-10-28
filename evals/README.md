@@ -12,6 +12,8 @@
 
 Structural validation checks case coverage and fixture existence. It does not execute model evaluations. Record actual runs in `evals/results/`; do not present expected outputs as measured results.
 
+The [2026-10-28 discovery-dialogue run](results/discovery-dialogue-2026-10-28/review.md) checks recommended clarifications, neutral customer interviews and stopping intake when a provisional decision is possible. Two fresh-session outputs and all nine scoped judgments are preserved; no general performance uplift is claimed.
+
 The [2026-10-26 discovery-methods run](results/discovery-methods-2026-10-26/review.md) records three fresh-session offline cases for interviewing, switching and interest-versus-payment evidence. It includes complete outputs, package fingerprints, criterion-level review and installation/check limitations; no real-market or comparative performance claim is implied.
 
 ## Comparison protocol

@@ -2,6 +2,8 @@
 
 ## [0.2.0] - Unreleased
 
+- Improved discovery dialogue after a real organizer-segmentation walkthrough exposed excessive intake: consequential clarifications now include the agent's provisional recommendation and reason; sufficient briefs receive an early result; unknown/skipped answers remain gaps instead of repetitive prompts. Kept customer interview questions neutral, campaign execution separate and planning targets distinct from forecasts. Added anonymized synthetic regression cases; the walkthrough itself is not a measured performance comparison.
+
 - Strengthened `iran-market-discovery` with episode-based interviews, jobs/switching analysis, explicit assumption prioritization, solution mapping, willingness-to-pay evidence boundaries and context-dependent experiment selection. Added a self-contained methods reference with dated primary-page access scopes, updated the guide/UI metadata and added behavioral cases. Unverified NotebookLM statistics and fixed numerical rules were excluded; no customer-demand or performance improvement is claimed.
 
 - Rewrote English/Persian README around five new work situations: inventory discovery, rehearsal-room booking comparison, Persian invoices, contact-export help and store-page SEO prioritization. Each includes concrete inputs and an authored deliverable excerpt or acceptance criteria; the self-contained starting brief needs no repository fixture. All new scenarios are explicitly fictional and unexecuted; existing evaluation and project-use records remain separate. Added an individual capability/evidence review and source-attributed Eventbaz case study. Skill behavior is unchanged.

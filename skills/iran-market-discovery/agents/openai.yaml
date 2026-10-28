@@ -1,4 +1,4 @@
 interface:
   display_name: "Iran Market Discovery"
   short_description: "Research customer jobs and test risky market assumptions"
-  default_prompt: "Use $iran-market-discovery to investigate a bounded audience and product decision using dated sources and customer episodes, prioritize unsupported assumptions, and propose a practical next test that distinguishes interest from actual buying behavior."
+  default_prompt: "Use $iran-market-discovery to investigate a bounded audience and product decision, ask only consequential clarifications with your provisional recommendation, and deliver an evidence-backed next test as soon as possible; keep customer interviews neutral and interest separate from buying behavior."

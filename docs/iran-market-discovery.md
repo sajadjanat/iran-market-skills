@@ -28,6 +28,14 @@ Use the [evidence record](../skills/iran-market-discovery/references/evidence-re
 
 The result has a bounded decision, dated/attributed material claims, visible gaps and an experiment whose outcome changes the decision. A national report is not presented as proof of product demand.
 
+## Guided conversation, not an intake questionnaire
+
+The agent reuses existing answers/evidence and asks only clarifications that change the decision or test. Each clarification to the requester includes a provisional recommendation or conditional default with a short reason. Unknown facts get a recommended verification path, not an invented answer. A one-question-at-a-time preference controls pacing; it does not require another question after the agent can already give a useful result. Unknown/skipped answers become visible gaps. A material blocker gets a partial result and a focused question; otherwise the agent delivers the recommendation and test before optional campaign execution work.
+
+‏کنار هر سوال از صاحب پروژه، پیشنهاد فعلی ایجنت و دلیل کوتاهش میاد. مثلا: «برای ماه اول روی کدوم شهر تمرکز کنیم؟ پیشنهاد من مشهده، چون بیشتر شواهد فعلی از همون شهره؛ این اولویت بررسیه و هنوز بهترین بازار رو ثابت نمیکنه.» این یک نمونه آموزشی است، نه یافته بازار.
+
+‏وقتی اطلاعات برای پیشنهاد اولیه کافیه، ایجنت باید نتیجه بده و ابهام های باقی مونده رو به برنامه بررسی تبدیل کنه. سوال های مصاحبه با مشتری همچنان بی طرف میمونن تا پاسخ فرد رو جهت ندیم؛ پیشنهاد پژوهشگر جدا نوشته میشه. هدف عددی آزمون هم پیش بینی قطعی جذب یا فروش نیست.
+
 ## Common limits
 
 Blocked sources are marked, not substituted with invented numbers. Exploratory interviews do not establish population prevalence. Rial/toman and report periods remain explicit. Without browsing the result is a plan or artifact analysis.

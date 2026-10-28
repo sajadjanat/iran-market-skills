@@ -9,6 +9,7 @@ Use when the customer problem, present workaround or purchase process is unclear
 - Recruit people who recently experienced the job, including people who abandoned it or used a substitute. Choose recency to fit the buying cycle and recall quality; explain recruitment bias and missing perspectives.
 - Start with a concrete episode: trigger, sequence, alternatives considered, actual choice, cost/time, outcome and unresolved difficulty. Identify user, decision maker and payer separately where relevant.
 - Ask neutrally before showing the proposed solution. For a distinct prototype or offer test, explain the transition and record responses separately. There is no fixed interview/pitch ratio or mandatory sample size.
+- Recommendations accompanying clarifications to the project owner are decision support, not a format for customer interviews. Keep participant-facing prompts neutral; place your advice about recruitment, interpretation or next actions in separate researcher notes. When the owner is also a participant, distinguish their recalled experience from a product preference or planning decision.
 - Keep anonymized participant statements separate from directly observed actions and your interpretation. Retain counterexamples. End with the uncertainty reduced and what remains unknown.
 
 Authored Persian prompts:

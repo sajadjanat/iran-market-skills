@@ -1,0 +1,9 @@
+{
+  "agents/openai.yaml": "d5cef3e3b54f7fe567d440516be15e61b5f4321889335e2e9df8076a23b735d3",
+  "LICENSE": "fa9ed86c4c2425e989150ecd45f3055054c0f7f17cb34c28ac8546d6854e08b2",
+  "references/discovery-methods.md": "c62aa2b6b587aff2ef33676eb289b091ec1956ff8444b7b8c5ee865ea1672c11",
+  "references/evidence-policy.md": "1ab6ffd624d2ba29644f0ce687b3e7bc4a45631eeb67b739c52bd8905ebd5ba3",
+  "references/evidence-record.md": "faa8b42e1b1ef9168409adc2af00e24b13da0821b5c3f35e63fbe37a5a81d0e7",
+  "references/public-sources.md": "72814280f6ce7830edb80ce7222020666aead286625d132e5a9c69f92252a6db",
+  "SKILL.md": "2152a432a3bba7ac3f56f88d6818413de10ec7e47243d8c243213716d73f6340"
+}

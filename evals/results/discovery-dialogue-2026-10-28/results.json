@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-28",
+  "base_revision": "5a09db5b4f935fbe8c33e08a40af1913db7de57b",
+  "state": "modified package; exact evaluated bytes in skill-fingerprints.json",
+  "agent": "fresh Codex collaboration sessions; exact runtime model identifier not exposed",
+  "tools": "selected local skill/request reading and isolated output writing; no browsing, other projects or external actions",
+  "reviewer": "parent agent; aware of criteria",
+  "results": [
+    {
+      "case": "market-guided-clarification",
+      "output": "market-guided-clarification.md",
+      "sha256": "ded58582ef12b6fde5320e7a8792cf891964bc5e4eaef9717a6e58ce675a3617",
+      "checks": [
+        {
+          "criterion": "Asks exactly one consequential clarification to the requester with a provisional recommendation or conditional default and evidence-based reason",
+          "result": "pass",
+          "evidence_excerpt": "‏آیا موافقی بررسی اولیهٔ گروه برگزارکننده‌ها را فعلاً روی مشهد متمرکز کنیم؟"
+        },
+        {
+          "criterion": "Does not invent the unknown acquisition or return reasons and treats event concentration as a limit",
+          "result": "pass",
+          "evidence_excerpt": "‏پیشنهاد موقت من مشهد است؛ در دادهٔ ساختگی ارائه‌شده، ۱۴ رویداد از ۱۷ رویداد در مشهد بوده و این نقطهٔ شروعِ مستندتری برای بررسی است. این تمرکز صرفاً محدودهٔ تحقیق است، نه انتخاب قطعی بازار هدف در ایران. تعداد بیشتر کارگاه‌های هنری هم هنوز برتری این گروه را ثابت نمی‌کند: ۶ مورد از ۱۲ کارگاه را یک برگزارکننده ثبت کرده و منشأ ثبت‌ها و علت بازگشت مشتری‌ها معلوم نیست. بنابراین فعلاً دربارهٔ انتخاب هنر در برابر بازی اطمینان کمی داریم؛ اگر ثبت‌ها حاصل جذب دستی یا روابط قبلی باشند، توصیه می‌تواند تغییر کند."
+        },
+        {
+          "criterion": "Keeps the two participant-facing interview prompts separate and neutral, without suggested answers or owner-facing recommendations inside them",
+          "result": "pass",
+          "evidence_excerpt": "۱. ‏آخرین باری که رویدادی را روی یک پلتفرم ثبت کردی، چطور آن پلتفرم را پیدا و انتخاب کردی؟"
+        },
+        {
+          "criterion": "Does not claim market superiority, representative demand or execute external actions",
+          "result": "pass",
+          "evidence_excerpt": "‏این پرسش‌ها فقط برای مصاحبهٔ آینده‌اند؛ فعلاً هیچ تماسی انجام نمی‌شود.\n"
+        }
+      ]
+    },
+    {
+      "case": "market-stop-intake",
+      "output": "market-stop-intake.md",
+      "sha256": "f3bf273cea858d8d4e4b3941ee74a5ff6adbb8d58e94a3aa6eeece58359927b6",
+      "checks": [
+        {
+          "criterion": "Delivers a bounded provisional segment recommendation and first test now instead of continuing intake on already known or skipped details",
+          "result": "pass",
+          "evidence_excerpt": "‏با اطلاعات همین سناریوی ساختگی، پیشنهاد موقت من **برگزارکنندگان هنری برای آزمون اول جذب** است؛ اطمینانم پایین است. برای انتخاب آزمون، اطلاعات کافی داریم و فعلاً سؤال دیگری لازم نیست. این انتخاب به معنی اثبات فروش یا برتری این گروه در بازار نیست."
+        },
+        {
+          "criterion": "Uses the supplied evidence and explicitly limits independent-return and sales claims; does not treat one large organizer as general demand",
+          "result": "pass",
+          "evidence_excerpt": "‏**دلیل انتخاب هنری:** هم تعداد حساب و هم تعداد رویداد گزارش‌شده بیشتر است. حتی با کنارگذاشتن حساب غالب، ۶ رویداد از ۴ حساب باقی می‌ماند؛ این فقط نشانه‌ای مقدماتی برای شروع بررسی است. بازی و کتابخوانی فعلاً گزینه‌های جایگزین‌اند؛ شواهد موجود برای رتبه‌بندی آن‌ها بر اساس فروش کافی نیست. علت برگشت و ورودی اینستاگرام را هم طبق خواسته تو نامعلوم نگه می‌داریم و دوباره نمی‌پرسیم."
+        },
+        {
+          "criterion": "Turns unknown motivations and channel performance into test gaps rather than repeating founder questions or blocking on customer interviews",
+          "result": "pass",
+          "evidence_excerpt": "‏**دلیل انتخاب هنری:** هم تعداد حساب و هم تعداد رویداد گزارش‌شده بیشتر است. حتی با کنارگذاشتن حساب غالب، ۶ رویداد از ۴ حساب باقی می‌ماند؛ این فقط نشانه‌ای مقدماتی برای شروع بررسی است. بازی و کتابخوانی فعلاً گزینه‌های جایگزین‌اند؛ شواهد موجود برای رتبه‌بندی آن‌ها بر اساس فروش کافی نیست. علت برگشت و ورودی اینستاگرام را هم طبق خواسته تو نامعلوم نگه می‌داریم و دوباره نمی‌پرسیم."
+        },
+        {
+          "criterion": "Keeps outreach/profile auditing/lead-list construction as later execution work; no external actions",
+          "result": "pass",
+          "evidence_excerpt": "‏۲. برای باقی ماه، پس از مجوز اجرای جداگانه، یک پایلوت کوچک هنری برنامه‌ریزی شود: برگزارکنندگان مستقل مشهد که رویداد پولی واقعی و قابل‌برگزاری در بازه آزمون دارند، با همان شرایط اعلام‌شده. ساخت فهرست و پیام جذب قدم بعد از این تصمیم است. مسئول، همان یک نفر؛ سقف کل هزینه ۱۰ میلیون تومان است، نه بودجه‌ای که الزاماً باید خرج شود. پیش از اجرا، شرایط پرداخت، تسویه، لغو و بازپرداخت باید روشن باشد."
+        },
+        {
+          "criterion": "Makes suggested counts, thresholds or budget allocation planning hypotheses rather than conversion forecasts and gives success/failure/inconclusive decisions",
+          "result": "pass",
+          "evidence_excerpt": "‏معیار تصمیم پیشنهادی و هنوز توافق‌نشده: ادامه بررسی هنری وقتی فروش واقعی و سپس تکرار در چند حساب مستقل دیده شود و زمان کمک با ظرفیت موجود سازگار باشد. اگر نتیجه فقط به حساب غالب وابسته باشد یا گروه دیگری شواهد فروش بهتری بدهد، انتخاب را بازنگری کنیم. اگر پرداخت‌ها قابل‌ردیابی نباشند، جذب کافی رخ ندهد یا نوبت رویداد بعدی بیرون ماه باشد، نتیجه «نامشخص» است؛ افزایش بودجه یا اعلام نبود تقاضا از آن نتیجه نمی‌شود.\n"
+        }
+      ]
+    }
+  ]
+}

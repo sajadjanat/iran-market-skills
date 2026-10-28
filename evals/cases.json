@@ -357,5 +357,28 @@
       "Prioritizes consequential weakly evidenced assumptions and explains experiment choice without banning MVP",
       "Keeps sample size, solution counts and thresholds context dependent; marks missing evidence and execution boundaries"
     ]
+  },
+  {
+    "id": "market-guided-clarification",
+    "skill": "iran-market-discovery",
+    "request": "این سناریو ساختگی است. صاحب یک پلتفرم رویداد هستم و میخواهم گروه برگزارکننده مناسب برای بررسی جذب را انتخاب کنم. داده ارائه شده: ۱۲ کارگاه هنری و ۵ دورهمی بازی؛ ۱۴ مورد در مشهد و ۳ مورد در تهران. یک برگزارکننده هنری ۶ مورد از کارگاه ها را ثبت کرده است. دلیل برگشت مشتری ها و منشأ ثبت ها را نمیدانم. شهر هدف هنوز انتخاب نشده و فعلا کشور ایران است. اینترنت و اجازه تماس نداریم. قدم به قدم و سوال ها یکی یکی باشد. الان فقط سوال تصمیم ساز بعدی را از من بپرس و پیشنهاد خودت را هم با دلیل بگو؛ بعد، در بخشی جدا، دو سوال بی طرف برای مصاحبه آینده با برگزارکننده ها آماده کن.",
+    "criteria": [
+      "Asks exactly one consequential clarification to the requester with a provisional recommendation or conditional default and evidence-based reason",
+      "Does not invent the unknown acquisition or return reasons and treats event concentration as a limit",
+      "Keeps the two participant-facing interview prompts separate and neutral, without suggested answers or owner-facing recommendations inside them",
+      "Does not claim market superiority, representative demand or execute external actions"
+    ]
+  },
+  {
+    "id": "market-stop-intake",
+    "skill": "iran-market-discovery",
+    "request": "سناریوی زیر کاملا ساختگی است. مکالمه تا اینجا: تصمیم من انتخاب گروه برگزارکننده برای آزمون جذب است. هنری ۱۲ رویداد از ۵ حساب دارد، بازی ۵ رویداد از ۲ حساب و کتابخوانی ۴ رویداد از ۲ حساب؛ نیمی از رویدادهای هنری مربوط به یک حساب است. گفته ام هر سه گروه بدون پیگیری من دوباره ثبت داشته اند، ولی مدرک مستقل و اطلاعات پرداخت نداریم. از دلیل برگشت و ورودی اینستاگرام پرسیدی و گفتم نمیدانم و فعلا رد کن؛ میزان نیاز به کمک هم متفاوت است. دسترسی به هر سه گروه دارم. برای ماه اول مشهد، آنلاین، یک نفر تمام وقت و سقف ۱۰ میلیون تومان داریم؛ کارمزد صفر، تسویه با درخواست، و کمک به اولین انتشار میدهم. فهرست جذب آماده نداریم. هدف من تعداد رویداد، فروش و تکرار است و اولویت با رویداد پولی است. میخواهم سوال ها را یکی یکی بپرسی. اینترنت و اجازه اجرای تماس، انتشار، خرج کردن یا تراکنش نداری. حالا ادامه بده.",
+    "criteria": [
+      "Delivers a bounded provisional segment recommendation and first test now instead of continuing intake on already known or skipped details",
+      "Uses the supplied evidence and explicitly limits independent-return and sales claims; does not treat one large organizer as general demand",
+      "Turns unknown motivations and channel performance into test gaps rather than repeating founder questions or blocking on customer interviews",
+      "Keeps outreach/profile auditing/lead-list construction as later execution work; no external actions",
+      "Makes suggested counts, thresholds or budget allocation planning hypotheses rather than conversion forecasts and gives success/failure/inconclusive decisions"
+    ]
   }
 ]
